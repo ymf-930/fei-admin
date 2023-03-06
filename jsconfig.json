@@ -1,0 +1,14 @@
+{
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true,
+    "experimentalShamefullySupportOptionsApi": false
+  },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.js", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}

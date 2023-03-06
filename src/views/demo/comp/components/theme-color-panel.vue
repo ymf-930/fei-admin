@@ -1,0 +1,16 @@
+<template>
+  <f-collapse-wrap title="主题设置" shadow="none" class="mb-20">
+    <div class="p10">
+      <theme-panel mode="horizontal" only-theme />
+    </div>
+  </f-collapse-wrap>
+</template>
+
+<script>
+import ThemePanel from '@/layouts/setting/theme-panel.vue'
+
+export default {
+  name: 'theme-color-panel',
+  components: { ThemePanel },
+}
+</script>
