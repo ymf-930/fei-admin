@@ -74,7 +74,7 @@
         </div>
         <div class="footer">
           <p class="footer-copyright">
-            fei admin 简版后台管理系统vue3 重构版
+            fei admin 简版后台管理系统vue3
             <a href="https://github.com/ymf-930/fei-admin" target="_blank">github</a>
           </p>
         </div>
