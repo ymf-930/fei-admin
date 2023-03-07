@@ -4,7 +4,7 @@
       <f-dropdown @command="handleMenuSelect" v-if="showDropdown && item.children?.length">
         <span class="breadcrumb-item">
           {{ item.title }}
-          <i class="b-iconfont b-icon-down"></i>
+          <i class="f-iconfont f-icon-down"></i>
         </span>
         <template #dropdown>
           <f-dropdown-menu>
@@ -69,7 +69,7 @@ export default {
     font-weight: normal;
     color: rgba(0, 0, 0, .65);
     outline: none;
-    .b-icon-down {
+    .f-icon-down {
       margin-left: 4px;
       font-size: 12px;
     }

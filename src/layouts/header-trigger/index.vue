@@ -1,7 +1,7 @@
 <template>
   <f-tooltip :content="tooltip" :disabled="!tooltip">
     <div class="global-header-trigger" @click="$emit('click')">
-      <i :class="`b-iconfont b-icon-${icon}`"
+      <i :class="`f-iconfont f-icon-${icon}`"
          :style="{transform: `rotate(${rotate}deg)`,fontSize:size,height:size}"
       ></i>
     </div>

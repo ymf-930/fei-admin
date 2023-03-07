@@ -31,7 +31,7 @@
         <div class="weather-air mb-5" flex="cross:center">
           空气质量指数
           <div class="air-tag" :style="getAirColor(air.aqi)">
-            <i class="b-iconfont b-icon-cloud" style="font-size: 14px"></i>
+            <i class="f-iconfont f-icon-cloud" style="font-size: 14px"></i>
             &nbsp;
             <span>{{ air.category }}</span>
             &nbsp;

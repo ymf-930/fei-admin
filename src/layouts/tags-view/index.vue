@@ -13,45 +13,45 @@
     >
       <template v-slot:menu>
         <li @click="refreshCurrentPage">
-          <i class="b-iconfont b-icon-reload"></i>
+          <i class="f-iconfont f-icon-reload"></i>
           重新加载
         </li>
         <li :class="{ disabled: rightHome }" @click="closeSelected">
-          <i class="b-iconfont b-icon-close"></i>
+          <i class="f-iconfont f-icon-close"></i>
           关闭标签页
         </li>
         <li :class="{ disabled: rightHome }" @click="closeOthers">
-          <i class="b-iconfont b-icon-pic-center"></i>
+          <i class="f-iconfont f-icon-pic-center"></i>
           关闭其他标签页
         </li>
         <li :class="{ disabled: rightHome }" @click="closeAll">
-          <i class="b-iconfont b-icon-line"></i>
+          <i class="f-iconfont f-icon-line"></i>
           关闭全部标签页
         </li>
       </template>
     </f-tabs>
     <div class="tags-view-ctrl">
       <span class="trigger" title="刷新" @click="refreshCurrentPage">
-        <i class="b-iconfont b-icon-reload" style="transform: rotate(90deg)"></i>
+        <i class="f-iconfont f-icon-reload" style="transform: rotate(90deg)"></i>
       </span>
       <f-dropdown trigger="click" style="width: 42px; display: flex" append-to-body @command="handleCommand">
-        <span class="trigger"><i class="b-iconfont b-icon-down"></i></span>
+        <span class="trigger"><i class="f-iconfont f-icon-down"></i></span>
         <template #dropdown>
           <f-dropdown-menu>
             <f-dropdown-item name="refreshSelected">
-              <i class="b-iconfont b-icon-reload"></i>
+              <i class="f-iconfont f-icon-reload"></i>
               重新加载
             </f-dropdown-item>
             <f-dropdown-item name="closeSelected" :disabled="currentHome">
-              <i class="b-iconfont b-icon-close"></i>
+              <i class="f-iconfont f-icon-close"></i>
               关闭标签页
             </f-dropdown-item>
             <f-dropdown-item name="closeOthers" divided :disabled="currentHome">
-              <i class="b-iconfont b-icon-pic-center"></i>
+              <i class="f-iconfont f-icon-pic-center"></i>
               关闭其他标签页
             </f-dropdown-item>
             <f-dropdown-item name="closeAll" :disabled="currentHome">
-              <i class="b-iconfont b-icon-line"></i>
+              <i class="f-iconfont f-icon-line"></i>
               关闭全部标签页
             </f-dropdown-item>
           </f-dropdown-menu>
@@ -62,7 +62,7 @@
         :title="setting.contentFull ? '收缩' : '全屏'"
         @click="setting.contentFull = !setting.contentFull"
       >
-        <i :class="`b-iconfont b-icon-${setting.contentFull ? 'compress' : 'expend'}`"></i>
+        <i :class="`f-iconfont f-icon-${setting.contentFull ? 'compress' : 'expend'}`"></i>
       </span>
     </div>
   </div>

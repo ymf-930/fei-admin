@@ -32,7 +32,7 @@
               class="loading-mask-text"
               style="font-size: 22px; font-weight: bold; text-shadow: 0 0.5rem 1rem rgb(0, 0, 0)"
             >
-              FEI-ADMIN
+              BIN-ADMIN-PRO
             </h1>
             <p class="mt-16">loading . . .</p>
           </div>

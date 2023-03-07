@@ -1,7 +1,7 @@
 <template>
   <f-popover v-model:visible="visible" :width="popperWidth" :disabled="!confirm">
     <f-button v-bind="btnProps" @click="handleClick" :title="tooltip">
-      <i v-if="icon" :class="`b-iconfont b-icon-${icon}`" :style="iconStyle"></i>
+      <i v-if="icon" :class="`f-iconfont f-icon-${icon}`" :style="iconStyle"></i>
       <slot></slot>
     </f-button>
     <template #content>

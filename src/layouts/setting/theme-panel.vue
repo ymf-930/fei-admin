@@ -7,7 +7,7 @@
           <f-tooltip content="亮色主题风格" append-to-body>
             <span @click="themChange('light')">
               <img src="@/assets/images/light.svg" alt="" />
-              <i v-if="setting.theme === 'light'" class="b-iconfont b-icon-check"></i>
+              <i v-if="setting.theme === 'light'" class="f-iconfont f-icon-check"></i>
             </span>
           </f-tooltip>
         </div>
@@ -15,7 +15,7 @@
           <f-tooltip content="暗色主题风格" append-to-body>
             <span @click="themChange('dark')">
               <img src="@/assets/images/dark.svg" alt="" />
-              <i v-if="setting.theme === 'dark'" class="b-iconfont b-icon-check"></i>
+              <i v-if="setting.theme === 'dark'" class="f-iconfont f-icon-check"></i>
             </span>
           </f-tooltip>
         </div>
@@ -100,7 +100,7 @@ export default {
     margin-right: 20px;
     height: 45px;
     cursor: pointer;
-    .b-icon-check {
+    .f-icon-check {
       position: absolute;
       right: 6px;
       bottom: 6px;
@@ -146,7 +146,7 @@ export default {
         border-color: getColor();
         &:after {
           color: inherit;
-          font-family: "b-iconfont" !important;
+          font-family: "f-iconfont" !important;
           content: "\e886"
         }
       }

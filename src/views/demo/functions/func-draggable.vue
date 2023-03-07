@@ -28,7 +28,7 @@
             >
               <template #item="{ element }">
                 <div class="item">
-                  <i class="b-iconfont b-icon-drag drag-handle"></i>
+                  <i class="f-iconfont f-icon-drag drag-handle"></i>
                   {{ element }}
                 </div>
               </template>

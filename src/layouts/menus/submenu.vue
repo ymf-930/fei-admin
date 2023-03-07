@@ -1,7 +1,7 @@
 <template>
   <f-submenu :index="menu.name">
     <template #title>
-      <i v-if="menu.icon" :class="`b-iconfont b-icon-${menu.icon}`"></i>
+      <i v-if="menu.icon" :class="`f-iconfont f-icon-${menu.icon}`"></i>
       <span>{{ menu.title }}</span>
     </template>
     <template v-for="(child,childIndex) in menu.children" :key="childIndex">

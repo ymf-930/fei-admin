@@ -13,9 +13,9 @@
           <ul class="search-modal-list" v-no-data:[dataText]="filterList.length === 0">
             <li v-for="item in filterList" :key="item.name" class="list-item">
               <a @click="handleClick(item.name)">
-                <i class="b-iconfont b-icon-group"></i>
+                <i class="f-iconfont f-icon-group"></i>
                 <span>{{ item.display }}</span>
-                <i class="b-iconfont b-icon-enter"></i>
+                <i class="f-iconfont f-icon-enter"></i>
               </a>
             </li>
           </ul>

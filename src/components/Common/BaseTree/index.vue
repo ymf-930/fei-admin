@@ -9,7 +9,7 @@
         </div>
         <div class="ctrl">
           <f-dropdown append-to-body placement="bottom-start" @command="handleAction">
-            <i class="b-iconfont b-icon-ellipsis"></i>
+            <i class="f-iconfont f-icon-ellipsis"></i>
             <template #dropdown>
               <f-dropdown-menu>
                 <f-dropdown-item name="expandAll">展开全部</f-dropdown-item>
@@ -230,7 +230,7 @@ export default {
       .ctrl {
         text-align: right;
         width: 24px;
-        .b-icon-ellipsis {
+        .f-icon-ellipsis {
           cursor: pointer;
           outline: none;
           font-size: 20px;

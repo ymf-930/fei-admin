@@ -9,7 +9,7 @@
         <label>
           <f-input v-model="list[index].value" placeholder="value" clearable @input="inputChange"></f-input>
         </label>
-        <i class="destroy b-iconfont b-icon-delete" @click="handleRemove(index)"></i>
+        <i class="destroy f-iconfont f-icon-delete" @click="handleRemove(index)"></i>
       </li>
     </ul>
     <div class="mt-8 mb-8" v-if="showAdd">

@@ -27,7 +27,7 @@
     >
       <template #item="{ element, index }">
         <li class="todo" :class="[{ done: element.done }, { edit: editIndex === index }]">
-          <i class="b-iconfont b-icon-menu drag"></i>
+          <i class="f-iconfont f-icon-menu drag"></i>
           <span class="toggle" @click="toggleCheck(index)">
             <f-icon name="check"></f-icon>
           </span>
@@ -35,7 +35,7 @@
             <f-input v-model="editText" size="small" v-focus @enter="inputBlur(index)" @blur="inputBlur(index)" />
           </label>
           <label v-else @dblclick="dbClickEdit(index)">{{ element.text }}</label>
-          <i class="destroy b-iconfont b-icon-close" @click="removeOne(index)"></i>
+          <i class="destroy f-iconfont f-icon-close" @click="removeOne(index)"></i>
         </li>
       </template>
     </draggable>

@@ -21,7 +21,7 @@
           <!-- logo -->
           <div class="page-login--logo">
             <img src="@/assets/images/logo/bin-ui-next-02.svg" alt="logo" />
-            <span>FEI-ADMIN</span>
+            <span>BIN-ADMIN-PRO</span>
           </div>
           <!-- 表单 -->
           <div class="form">

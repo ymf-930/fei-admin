@@ -82,7 +82,7 @@ export default {
               [
                 h('span', data.title),
                 h('i', {
-                  class: ['b-iconfont', 'b-icon-plus-square'],
+                  class: ['f-iconfont', 'f-icon-plus-square'],
                   style: {
                     fontSize: '16px',
                     color: '#1089ff',
@@ -115,7 +115,7 @@ export default {
           h('span', data.title),
           h('span', { style: { display: 'inline-block' } }, [
             h('i', {
-              class: ['b-iconfont', 'b-icon-plus-circle'],
+              class: ['f-iconfont', 'f-icon-plus-circle'],
               style: { fontSize: '16px', color: '#5d6d7e' },
               onClick: e => {
                 e.stopPropagation()
@@ -123,7 +123,7 @@ export default {
               },
             }),
             h('i', {
-              class: ['b-iconfont', 'b-icon-minus-circle'],
+              class: ['f-iconfont', 'f-icon-minus-circle'],
               style: { fontSize: '16px', color: '#f5222d' },
               onClick: e => {
                 e.stopPropagation()
@@ -148,7 +148,7 @@ export default {
           h('span', data.text),
           h('span', { style: { display: 'inline-block' } }, [
             h('i', {
-              class: ['b-iconfont', 'b-icon-plus-square-fill'],
+              class: ['f-iconfont', 'f-icon-plus-square-fill'],
               style: { fontSize: '18px', color: '#5d6d7e' },
               onClick: e => {
                 e.stopPropagation()
@@ -156,7 +156,7 @@ export default {
               },
             }),
             h('i', {
-              class: ['b-iconfont', 'b-icon-minus-square-fill'],
+              class: ['f-iconfont', 'f-icon-minus-square-fill'],
               style: { fontSize: '18px', color: '#f5222d' },
               onClick: e => {
                 e.stopPropagation()

@@ -25,9 +25,9 @@
         </div>
         <div class="draggable-content" v-if="$slots.draggable" :style="{ height: `calc(100% - ${height}px)` }">
           <div class="toggle">
-            <i class="b-iconfont b-icon-caret-up" title="展开" @click="changeDragStatus('maximum')" />
-            <i class="b-iconfont b-icon-caret-down" title="收起" @click="changeDragStatus('minimum')" />
-            <i class="b-iconfont b-icon-creditcard-fill" title="默认高度" @click="changeDragStatus('default')" />
+            <i class="f-iconfont f-icon-caret-up" title="展开" @click="changeDragStatus('maximum')" />
+            <i class="f-iconfont f-icon-caret-down" title="收起" @click="changeDragStatus('minimum')" />
+            <i class="f-iconfont f-icon-creditcard-fill" title="默认高度" @click="changeDragStatus('default')" />
           </div>
           <div class="drag-handler" draggable="true" @mousedown="onResizeMouseDown"></div>
           <slot name="draggable"></slot>

@@ -1,6 +1,6 @@
 <template>
   <f-button dashed type="primary" style="width: 100%;" @click="handleOpen">
-    <i class="b-iconfont b-icon-reconciliation"></i>
+    <i class="f-iconfont f-icon-reconciliation"></i>
     <slot>{{ title }}</slot>
   </f-button>
   <f-modal v-model="visible" :title="title||$slots.default" width="660px" append-to-body>

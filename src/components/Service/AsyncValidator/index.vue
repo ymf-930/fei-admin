@@ -42,12 +42,12 @@
         <div>
           <f-tooltip content="初始化校验">
             <f-button background size="mini" @click="refreshRules">
-              <i class="b-iconfont b-icon-reload"></i>
+              <i class="f-iconfont f-icon-reload"></i>
             </f-button>
           </f-tooltip>
           <f-tooltip content="恢复修改前校验" v-if="originalRules">
             <f-button background size="mini" @click="reload">
-              <i class="b-iconfont b-icon-mr"></i>
+              <i class="f-iconfont f-icon-mr"></i>
             </f-button>
           </f-tooltip>
         </div>

@@ -5,7 +5,7 @@
       <slot name="header">
         <div class="page-header-inner">
           <div class="page-header-heading" v-if="!hideTitle">
-            <i v-if="showBack" class="b-iconfont" :class="`b-icon-${backIcon} back-icon`" @click="$emit('back')"></i>
+            <i v-if="showBack" class="f-iconfont" :class="`f-icon-${backIcon} back-icon`" @click="$emit('back')"></i>
             <f-popover trigger="hover" placement="right" width="" v-if="isBubbles">
               <span class="page-header-heading-title">
                 {{ normalTitle }}
@@ -148,7 +148,7 @@ export default {
         color: var(--bin-color-primary);
       }
     }
-    .b-icon-close {
+    .f-icon-close {
       position: absolute;
       right: 24px;
       top: 16px;

@@ -1,6 +1,6 @@
 <template>
   <f-menu-item :index="menu.name">
-    <i v-if="menu.icon" :class="`b-iconfont b-icon-${menu.icon}`"></i>
+    <i v-if="menu.icon" :class="`f-iconfont f-icon-${menu.icon}`"></i>
     <template #title><span>{{ menu.title }}</span></template>
   </f-menu-item>
 </template>

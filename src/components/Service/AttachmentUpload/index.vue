@@ -28,18 +28,18 @@
     <ul class="file-list">
       <li v-for="(file, index) in fileList" :key="index" class="file-list-file">
         <div class="file-name">
-          <i :class="`b-iconfont b-icon-${format(file.fileName)}`"></i>
+          <i :class="`f-iconfont f-icon-${format(file.fileName)}`"></i>
           <span :title="file.name">{{ file.fileName }}</span>
         </div>
         <i
           v-if="!onlyFiles"
-          class="b-iconfont b-icon-close file-list-remove"
+          class="f-iconfont f-icon-close file-list-remove"
           @click.stop.prevent="handleRemove(index)"
         ></i>
         <i
           v-if="file.id"
           title="下载文件"
-          class="b-iconfont b-icon-vertical-align-botto file-list-download"
+          class="f-iconfont f-icon-vertical-align-botto file-list-download"
           @click.stop.prevent="handleDownload(file, index)"
         ></i>
       </li>
@@ -49,7 +49,7 @@
           <span :title="file.name">{{ file.name }}</span>
         </div>
         <i
-          class="b-iconfont b-icon-close file-list-remove"
+          class="f-iconfont f-icon-close file-list-remove"
           @click.stop.prevent="handleRemoveFiles(index)"
         ></i>
       </li>
