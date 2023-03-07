@@ -1,12 +1,12 @@
-# bin-admin-pro
+# fei-admin
 
 默认分支已更换为vite搭建，cli版本详见第二分支。
 
 工程已全面升级为vue3.2+版本，组件库插件等也会定期更新vue版本依赖。
 
-[预览](https://wangbin3162.github.io/bin-admin-pro/)
+[预览](https://ymf-930.github.io/fei-admin/)
 
-全新的admin-pro基于 Vue3，配合使用最新支持vue3的组件库 [f-ui-one](https://github.com/wangbin3162/bin-ui-next/) 
+全新的fei-admin基于 Vue3，配合使用最新支持vue3的组件库 [f-ui](https://github.com/ymf-930/f-ui/) 
 
 组件库提供了全新的主题系统和配置参数，增加了系统的个性化功能，并提供了多个自定义组件用于日常开发，配合组件库以及示例，可以快速的
 搭建自己的业务管理模块。
@@ -64,7 +64,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/ymf-930/f-ui-admin.git
+git clone https://github.com/ymf-930/fei-admin.git
 
 # 安装依赖
 npm install or yarn install

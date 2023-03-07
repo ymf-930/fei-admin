@@ -14,7 +14,7 @@ export default {
     {
       id: 10000001,
       realName: 'Wang',
-      username: 'wangbin',
+      username: 'yangmengfei',
       password: '123456',
       email: 'user@bin.admin',
       verify: true, // 是否验证邮箱

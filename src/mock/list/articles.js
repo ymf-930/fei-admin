@@ -12,7 +12,7 @@ export default {
       read: 10339,
       favour: 206,
       remark: 13,
-      author: 'wangbin',
+      author: 'yangmengfei',
       avatar,
     },
     {
@@ -25,7 +25,7 @@ export default {
       read: 842,
       favour: 8,
       remark: 0,
-      author: 'wangbin',
+      author: 'yangmengfei',
       avatar,
     },
     {
@@ -38,7 +38,7 @@ export default {
       read: 758,
       favour: 10,
       remark: 0,
-      author: 'wangbin',
+      author: 'yangmengfei',
       avatar,
     },
     {
@@ -51,7 +51,7 @@ export default {
       read: 1110,
       favour: 12,
       remark: 0,
-      author: 'wangbin',
+      author: 'yangmengfei',
       avatar,
     },
   ],

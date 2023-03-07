@@ -4,7 +4,7 @@ import menuList from '@/router/menus'
 import users from '@/mock/list/users'
 
 // 默认的用户名密码
-const username = ['admin', 'wang']
+const username = ['admin', 'yang']
 const password = ['admin', '123456']
 const testMenu = menuList
 

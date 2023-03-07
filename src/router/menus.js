@@ -251,7 +251,7 @@ export default [
         name: 'Github',
         title: '仓库地址',
         icon: 'link',
-        externalLink: 'https://github.com/wangbin3162/bin-ui-next',
+        externalLink: 'https://github.com/ymf-930/f-ui-one',
       },
       {
         name: 'DataV',
