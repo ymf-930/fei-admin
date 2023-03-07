@@ -5,9 +5,9 @@
         <h2>项目开发进度（编号：10000）</h2>
         <br />
         <f-desc>
-          <f-desc-item label="责任人">Wang</f-desc-item>
+          <f-desc-item label="责任人">Yang</f-desc-item>
           <f-desc-item label="审批人">Jack</f-desc-item>
-          <f-desc-item label="创建时间">2021-06-30</f-desc-item>
+          <f-desc-item label="创建时间">2022-06-30</f-desc-item>
           <f-desc-item label="当前状态">
             <f-tag type="success" dot>开发</f-tag>
           </f-desc-item>
@@ -29,19 +29,19 @@
     <f-collapse-wrap title="流程进度" shadow="none">
       <div class="p20">
         <f-steps :current="1">
-          <f-step title="创建项目" content="创建时间：2021-06-30"></f-step>
-          <f-step title="需求评审" content="评审时间：2021-07-05"></f-step>
-          <f-step title="开发测试" content="开发时间：2021-08-31"></f-step>
-          <f-step title="部署上线" content="上线时间：2021-10-01"></f-step>
+          <f-step title="创建项目" content="创建时间：2022-06-30"></f-step>
+          <f-step title="需求评审" content="评审时间：2022-07-05"></f-step>
+          <f-step title="开发测试" content="开发时间：2022-08-31"></f-step>
+          <f-step title="部署上线" content="上线时间：2022-10-01"></f-step>
         </f-steps>
       </div>
     </f-collapse-wrap>
     <f-collapse-wrap title="基本信息" shadow="none">
       <div class="p20">
         <f-desc>
-          <f-desc-item label="负责人">Wang</f-desc-item>
+          <f-desc-item label="负责人">Yang</f-desc-item>
           <f-desc-item label="审批人">Jack</f-desc-item>
-          <f-desc-item label="拟定完成时间">2021-06-30</f-desc-item>
+          <f-desc-item label="拟定完成时间">2022-06-30</f-desc-item>
           <f-desc-item label="当前状态">
             <f-tag type="success" dot>开发</f-tag>
           </f-desc-item>
@@ -85,9 +85,9 @@ export default {
         { title: '所属分组', key: 'dept' },
       ],
       data: [
-        { name: 'Wang', no: '001', dept: '前端组' },
-        { name: '郭小宁', no: '002', dept: '前端组' },
-        { name: '约修亚', no: '003', dept: '前端组' },
+        { name: 'Yang', no: '001', dept: '前端组' },
+        { name: '杨小帆', no: '002', dept: '前端组' },
+        { name: '孟小雨', no: '003', dept: '前端组' },
         { name: '李小红', no: '004', dept: '后端组' },
         { name: '张小发', no: '005', dept: '测试组' },
       ],

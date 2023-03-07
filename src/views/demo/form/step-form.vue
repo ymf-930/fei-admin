@@ -15,7 +15,7 @@
           <f-form :model="form1" :rules="rules1" ref="form1Ref" label-width="100px" label-suffix=":">
             <f-form-item prop="payment" label="付款账户">
               <f-select v-model="form1.payment" placeholder="请选择付款账户" clearable>
-                <f-option label="wangbin3162@qq.com" value="wangbin3162@qq.com"></f-option>
+                <f-option label="1950714773@qq.com" value="1950714773@qq.com"></f-option>
               </f-select>
             </f-form-item>
             <f-form-item prop="collection" label="收款账户">
@@ -129,10 +129,10 @@ export default {
     const form1Ref = ref(null)
     const form2Ref = ref(null)
     const form1 = ref({
-      payment: 'wangbin3162@qq.com',
+      payment: '1950714773@qq.com',
       collectionType: 'wechat',
       collection: 'bin@.admin',
-      name: 'Wang',
+      name: 'Yang',
       money: 100,
     })
     const form2 = ref({

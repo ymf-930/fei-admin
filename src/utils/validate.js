@@ -170,7 +170,7 @@ export function isPassword(password) {
 // 校验统一社会信用代码
 export function isUnifiedCode(unifiedCode) {
   let a = 111
-  // begin2021-5-18增加登记管理部门+机构类别代码验证
+  // begin2022-5-18增加登记管理部门+机构类别代码验证
   const REGIST_CODE = [
     '11',
     '12',
@@ -216,7 +216,7 @@ export function isUnifiedCode(unifiedCode) {
   ) {
     return false
   }
-  // end2021-5-18增加登记管理部门+机构类别代码验证
+  // end2022-5-18增加登记管理部门+机构类别代码验证
   if (!/^[0-9ABCDEFGHJKLMNPQRTUWXY]{18}$/.test(unifiedCode)) {
     return false
   }

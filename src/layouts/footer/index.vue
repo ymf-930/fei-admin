@@ -2,7 +2,7 @@
   <footer class="global-footer" style="color: rgba(0, 0, 0, 0.45); font-size: 14px">
     Copyright
     <i class="f-iconfont f-icon-copyright"></i>
-    2021 bin admin pro 简版后台管理系统 vue3.0版本&nbsp;
+    2023 fei admin 简版后台管理系统 vue3.0版本&nbsp;
     <a href="https://github.com/ymf-930/fei-admin" target="_blank">github</a>
   </footer>
 </template>

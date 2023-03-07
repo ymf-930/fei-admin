@@ -20,8 +20,8 @@
         <div class="main" flex="dir:top main:center cross:center">
           <!-- logo -->
           <div class="page-login--logo">
-            <img src="@/assets/images/logo/bin-ui-next-02.svg" alt="logo" />
-            <span>BIN-ADMIN-PRO</span>
+            <img src="@/assets/images/logo/fei-admin-logo.svg" alt="logo" />
+            <span>FEI-ADMIN</span>
           </div>
           <!-- 表单 -->
           <div class="form">
@@ -30,7 +30,7 @@
                 <f-input
                   type="text"
                   v-model="formLogin.username"
-                  placeholder="用户名[admin,wang]"
+                  placeholder="用户名[admin,yang]"
                   @keydown.enter="submit"
                 >
                   <template #prefix>

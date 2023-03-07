@@ -97,7 +97,7 @@
               <div class="list-item">
                 <div class="list-item-left">
                   <h4>备用邮箱</h4>
-                  <p>已绑定邮箱wangbin3162@qq.com</p>
+                  <p>已绑定邮箱1950714773@qq.com</p>
                 </div>
                 <div class="list-item-right">
                   <a target="_self" class="i-link">修改</a>

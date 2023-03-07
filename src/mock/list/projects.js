@@ -35,7 +35,7 @@ export default {
       banner: banner3,
       author: 'wangbin',
       avatar,
-      time: '2021-06-04',
+      time: '2022-06-04',
     },
     {
       id: '004',
@@ -45,7 +45,7 @@ export default {
       banner: banner4,
       author: 'wangbin',
       avatar,
-      time: '2021-06-04',
+      time: '2022-06-04',
     },
     {
       id: '005',
@@ -55,7 +55,7 @@ export default {
       banner: banner5,
       author: 'wangbin',
       avatar,
-      time: '2021-06-04',
+      time: '2022-06-04',
     },
   ],
 }
