@@ -1,12 +1,12 @@
 <template>
   <div class="system-error-page">
-    <div class="bin-result">
-      <div class="bin-result-icon bin-result-image">
+    <div class="fei-result">
+      <div class="fei-result-icon fei-result-image">
         <img src="@/assets/images/default/error404.svg" alt="404">
       </div>
-      <div class="bin-result-title">{{ status }}</div>
-      <div class="bin-result-subtitle">{{ errorMessage }}</div>
-      <div class="bin-result-extra">
+      <div class="fei-result-title">{{ status }}</div>
+      <div class="fei-result-subtitle">{{ errorMessage }}</div>
+      <div class="fei-result-extra">
         <f-space>
           <f-button background @click="$router.back()">返回上级</f-button>
           <router-link :to="{path:HOME_PATH}">
@@ -46,18 +46,18 @@ export default {
 
 <style lang="stylus">
 .system-error-page {
-  .bin-result {
+  .fei-result {
     padding: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .bin-result-image {
+  .fei-result-image {
     width: 400px;
     height: 340px;
   }
-  .bin-result-title {
+  .fei-result-title {
     margin-bottom: 24px;
     color: #17233d;
     font-weight: bold;
@@ -68,7 +68,7 @@ export default {
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
   }
-  .bin-result-subtitle {
+  .fei-result-subtitle {
     margin-bottom: 24px;
     color: #808695;
     font-size: 16px;
@@ -79,7 +79,7 @@ export default {
     animation-delay: 0.1s;
     animation-fill-mode: forwards;
   }
-  .bin-result-extra {
+  .fei-result-extra {
     text-align: center;
     opacity: 0;
     animation-name: slideUp;

@@ -447,7 +447,7 @@ export default {
 @import "../../../assets/stylus/base/var.styl"
 .analysis-wrap {
   padding: 16px;
-  :deep(.bin-card__header) {
+  :deep(.fei-card__header) {
     color: $color-text-primary;
   }
 }

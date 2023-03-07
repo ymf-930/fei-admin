@@ -123,7 +123,7 @@ export default {
 .task-wrapper {
   text-align: center;
   margin-bottom: 16px;
-  :deep(.bin-col) {
+  :deep(.fei-col) {
     margin: 16px 0;
     p:first-child {
       margin-bottom: 8px;

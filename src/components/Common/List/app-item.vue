@@ -85,10 +85,10 @@ export default {
     border-top: 1px solid #f0f0f0;
     padding: 8px 0;
     text-align: center;
-    :deep(.bin-col) {
+    :deep(.fei-col) {
       border-right: 1px solid #e8eaec;
     }
-    :deep(.bin-col:last-child) {
+    :deep(.fei-col:last-child) {
       border-right: none;
     }
     i {

@@ -1,16 +1,16 @@
 <template>
-  <div class="bin-result">
+  <div class="fei-result">
     <div :class="iconClass">
       <f-icon :name="iconName"></f-icon>
     </div>
-    <div class="bin-result-title">{{ statusText }}</div>
-    <div class="bin-result-desc" v-if="$slots.desc">
+    <div class="fei-result-title">{{ statusText }}</div>
+    <div class="fei-result-desc" v-if="$slots.desc">
       <slot name="desc"></slot>
     </div>
-    <div class="bin-result-extra" :class="{'is-white-bg':extraWhite}" v-if="$slots.extra">
+    <div class="fei-result-extra" :class="{'is-white-bg':extraWhite}" v-if="$slots.extra">
       <slot name="extra"></slot>
     </div>
-    <div class="bin-result-actions" v-if="$slots.actions">
+    <div class="fei-result-actions" v-if="$slots.actions">
       <slot name="actions"></slot>
     </div>
   </div>
@@ -38,7 +38,7 @@ export default {
   },
   computed: {
     iconClass() {
-      return `bin-result-icon bin-result-icon-${this.status}`
+      return `fei-result-icon fei-result-icon-${this.status}`
     },
     iconName() {
       const iconMap = {
@@ -55,12 +55,12 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-.bin-result {
+.fei-result {
   width: 70%;
   margin: 0 auto;
   text-align: center;
   padding: 48px 32px;
-  .bin-result-icon {
+  .fei-result-icon {
     display: inline-block;
     width: 72px;
     border-radius: 50%;
@@ -75,20 +75,20 @@ export default {
       color: #52c41a;
     }
   }
-  .bin-result-title {
+  .fei-result-title {
     margin-bottom: 16px;
     color: #17233d;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
   }
-  .bin-result-desc {
+  .fei-result-desc {
     margin-bottom: 24px;
     color: #808695;
     font-size: 14px;
     line-height: 22px;
   }
-  .bin-result-extra {
+  .fei-result-extra {
     padding: 24px 40px;
     text-align: left;
     background: #f8f8f9;
@@ -99,7 +99,7 @@ export default {
       box-shadow: 0 0 4px rgba(0, 0, 0, .1);
     }
   }
-  .bin-result-actions {
+  .fei-result-actions {
     margin-top: 32px;
   }
 }

@@ -152,7 +152,7 @@
   height: 42px;
   box-sizing: content-box;
   background-color: #ffffff;
-  .bin-tabs-wrapper {
+  .fei-tabs-wrapper {
     margin: 0 12px;
     width: calc(100% - 96px);
     .nav-wrapper {
@@ -179,7 +179,7 @@
           margin-left: 0;
         }
         &.active {
-          background:  var(--bin-color-primary-light5);
+          background:  var(--fei-color-primary-light5);
           border-color: getColor();
           color: getColor() !important;
           .f-icon-close {
@@ -187,7 +187,7 @@
             color: getColor();
           }
           .f-icon-close:hover {
-            color: var(--bin-color-danger-light2);
+            color: var(--fei-color-danger-light2);
           }
         }
       }
@@ -205,7 +205,7 @@
   }
   // 灵动模式
   &.tags-view-clever {
-    .bin-tabs-wrapper {
+    .fei-tabs-wrapper {
       .nav-wrapper {
         .tab-item {
           position: relative;
@@ -220,13 +220,13 @@
             width: 0;
             height: 2px;
             content: "";
-            background-color: var(--bin-color-primary);
+            background-color: var(--fei-color-primary);
           }
           &.active:after  {
             width: 100%;
           }
           &:hover {
-            background:  var(--bin-color-primary-light5);
+            background:  var(--fei-color-primary-light5);
             &:after  {
               width: 100%;
             }
@@ -238,7 +238,7 @@
 
   // 圆滑模式
   &.tags-view-smooth {
-    .bin-tabs-wrapper {
+    .fei-tabs-wrapper {
       .nav-wrapper {
         .tab-item {
           position: relative;
@@ -285,23 +285,23 @@
 // menu
 .aside-menu {
   height: 100%;
-  .bin-scrollbar__wrap {
+  .fei-scrollbar__wrap {
     overflow-x: hidden;
   }
 }
 // menu-popup
-.bin-menu--popup {
+.fei-menu--popup {
   z-index: 100;
   min-width: 180px;
   border: none;
   padding: 4px 0;
-  .bin-menu-item, .bin-submenu__title {
+  .fei-menu-item, .fei-submenu__title {
     height: 40px;
     line-height: 40px;
   }
 }
 
-.bin-back-top .back-top{
+.fei-back-top .back-top{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,10 +310,10 @@
   font-size: 26px;
   background: #fff;
   border-radius: 50%;
-  box-shadow: var(--bin-shadow-down);
+  box-shadow: var(--fei-shadow-down);
   transition: .25s;
   &:hover{
-    color: var(--bin-color-primary);
+    color: var(--fei-color-primary);
   }
 }
 

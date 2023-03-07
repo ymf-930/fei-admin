@@ -574,10 +574,10 @@ export default {
       &.is-message {
         width: 100%;
       }
-      :deep(.bin-input-number) {
+      :deep(.fei-input-number) {
         width: auto;
       }
-      :deep(input.bin-input) {
+      :deep(input.fei-input) {
         padding: 0 10px;
       }
     }

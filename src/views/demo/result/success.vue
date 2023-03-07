@@ -36,7 +36,7 @@ export default {
   padding: 40px;
   background: #fff;
   border-radius: 2px;
-  :deep(.bin-steps .bin-steps-head) {
+  :deep(.fei-steps .fei-steps-head) {
     background: #fff;
   }
 }

@@ -118,7 +118,7 @@ export default {
     box-sizing: border-box;
     margin: 0;
     background-color: #fff;
-    border-bottom: var(--bin-border-base);
+    border-bottom: var(--fei-border-base);
     &-inner {
       font-size: 14px;
       font-variant: tabular-nums;
@@ -145,7 +145,7 @@ export default {
       transition: .25s;
       font-weight: 500;
       &:hover {
-        color: var(--bin-color-primary);
+        color: var(--fei-color-primary);
       }
     }
     .f-icon-close {
@@ -160,19 +160,19 @@ export default {
       color: rgba(0, 0, 0, .65);
       transition: .25s;
       &:hover {
-        color: var(--bin-color-danger);
+        color: var(--fei-color-danger);
       }
     }
-    :deep(.bin-form) {
+    :deep(.fei-form) {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       padding: 12px 24px 0;
-      .bin-form-item {
+      .fei-form-item {
         margin-right: 0;
         margin-bottom: 12px;
         width: 25%;
-        .bin-form-item__label {
+        .fei-form-item__label {
           padding-left: 6px;
           text-align: center;
         }
@@ -193,7 +193,7 @@ export default {
     width: 100%;
     padding: 10px 24px;
     background: #fff;
-    border-top: var(--bin-border-base);
+    border-top: var(--fei-border-base);
     box-shadow: 0 -6px 8px -8px rgba(0, 0, 0, 0.08), 0 -9px 10px 0 rgba(0, 0, 0, 0.05);
     transition: all 0.2s;
   }

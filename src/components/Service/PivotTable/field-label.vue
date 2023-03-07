@@ -35,7 +35,7 @@
         :offset="4"
         placement="bottom"
         transition="zoom-in-top"
-        popper-class="bin-select__popper field-label-popper"
+        popper-class="fei-select__popper field-label-popper"
         :gpu-acceleration="false"
       >
         <template #trigger>

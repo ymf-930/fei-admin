@@ -8,8 +8,8 @@
     }
   }
   // menu样式
-  .bin-menu {
-    .bin-menu-item {
+  .fei-menu {
+    .fei-menu-item {
       color: $color-text-white-light;
       background: getMenuBg();
       &.is-disabled {
@@ -27,22 +27,22 @@
         background: getColor();
       }
     }
-    .bin-submenu__title {
+    .fei-submenu__title {
       color: $color-text-white-light;
       background: getMenuBg();
       &:hover {
         color: $color-text-white;
       }
     }
-    .bin-menu-item-group__title {
+    .fei-menu-item-group__title {
       color: $color-text-white-disable;
       background: getMenuBgActive();
     }
-    .bin-submenu .bin-menu--inline {
-      .bin-menu-item, .bin-submenu__title {
+    .fei-submenu .fei-menu--inline {
+      .fei-menu-item, .fei-submenu__title {
         background: getMenuBgActive();
       }
-      .bin-menu-item {
+      .fei-menu-item {
         &.is-active {
           color: $color-text-white;
           background: getColor();
@@ -50,8 +50,8 @@
       }
     }
     // 收起菜单的样式
-    &.bin-menu--collapse {
-      .bin-menu-item {
+    &.fei-menu--collapse {
+      .fei-menu-item {
         &.is-active {
           color: getColor();
           background: getMenuBgActive();
@@ -67,8 +67,8 @@
           }
         }
       }
-      .bin-submenu.is-active {
-        .bin-submenu__title {
+      .fei-submenu.is-active {
+        .fei-submenu__title {
           color: getColor();
           background: getMenuBgActive();
         }
@@ -84,8 +84,8 @@
         }
       }
     }
-    &.bin-menu--horizontal {
-      .bin-menu-item {
+    &.fei-menu--horizontal {
+      .fei-menu-item {
         color: $color-text-white-light;
         background: getMenuBg();
         &:hover {
@@ -97,8 +97,8 @@
           border-bottom-color: getColor();
         }
       }
-      .bin-submenu {
-        .bin-submenu__title {
+      .fei-submenu {
+        .fei-submenu__title {
           &:not(.is-disabled):hover, &:not(.is-disabled):focus {
             color: $color-text-white;
             background: getMenuBg() !important;
@@ -109,7 +109,7 @@
           }
         }
         &.is-active {
-          .bin-submenu__title {
+          .fei-submenu__title {
             border-bottom-color: getColor();
             color: getColor();
           }
@@ -118,9 +118,9 @@
     }
   }
   // menu-popup
-  .bin-menu--popup {
+  .fei-menu--popup {
     background: getMenuBg();
-    .bin-menu-item, .bin-submenu__title {
+    .fei-menu-item, .fei-submenu__title {
       color: $color-text-white-light;
       background: getMenuBg();
       &:hover {

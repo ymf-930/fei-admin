@@ -86,13 +86,13 @@ export default {
     }
 
     function hideScroll() {
-      document.body.classList.add('bin-popup-parent--hidden')
+      document.body.classList.add('fei-popup-parent--hidden')
       document.body.style.paddingRight = '6px'
     }
 
     function showScroll() {
       query.value = ''
-      document.body.classList.remove('bin-popup-parent--hidden')
+      document.body.classList.remove('fei-popup-parent--hidden')
       document.body.style = null
     }
 
@@ -138,12 +138,12 @@ export default {
     justify-content: space-between;
     align-items: center;
     padding: 16px 16px 0;
-    :deep(.bin-input-large) {
+    :deep(.fei-input-large) {
       height: 48px;
       border-radius: 6px;
       padding-left: 40px;
     }
-    :deep(.bin-input-prefix) {
+    :deep(.fei-input-prefix) {
       left: 6px;
     }
   }

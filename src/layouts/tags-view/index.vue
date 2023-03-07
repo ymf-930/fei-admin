@@ -221,7 +221,7 @@ export default {
 </script>
 
 <style lang="stylus">
-.tags-view-container .bin-tabs-wrapper .contextmenu li {
+.tags-view-container .fei-tabs-wrapper .contextmenu li {
   &.disabled {
     opacity: 1;
     cursor: not-allowed;

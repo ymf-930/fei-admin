@@ -70,15 +70,15 @@ export function setPrimaryColor(color) {
   const shadow = alpha(color, 0.2)
 
   // 覆盖默认主题色
-  setCssVar('--bin-color-primary-active', paletteColors[3])
-  setCssVar('--bin-color-primary', paletteColors[4])
-  setCssVar('--bin-color-primary-light1', paletteColors[5])
-  setCssVar('--bin-color-primary-light2', paletteColors[6])
-  setCssVar('--bin-color-primary-light3', paletteColors[7])
-  setCssVar('--bin-color-primary-light4', paletteColors[8])
-  setCssVar('--bin-color-primary-light5', paletteColors[9])
-  setCssVar('--bin-color-primary-light6', paletteColors[10])
-  setCssVar('--bin-color-input-shadow', shadow)
+  setCssVar('--fei-color-primary-active', paletteColors[3])
+  setCssVar('--fei-color-primary', paletteColors[4])
+  setCssVar('--fei-color-primary-light1', paletteColors[5])
+  setCssVar('--fei-color-primary-light2', paletteColors[6])
+  setCssVar('--fei-color-primary-light3', paletteColors[7])
+  setCssVar('--fei-color-primary-light4', paletteColors[8])
+  setCssVar('--fei-color-primary-light5', paletteColors[9])
+  setCssVar('--fei-color-primary-light6', paletteColors[10])
+  setCssVar('--fei-color-input-shadow', shadow)
 }
 
 // 设置menuTheme

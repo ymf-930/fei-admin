@@ -1,7 +1,7 @@
 <template>
   <page-container title="Pivot Table" desc="交叉表，根据不同配置动态获取不同的表格显示。">
     <f-collapse-wrap title="Pivot (drag & drop UI + PivotTable)" shadow="none" collapse>
-      <div class="p16" style="--bin-border-base-radius: 0">
+      <div class="p16" style="--fei-border-base-radius: 0">
         <pivot
           :data="data"
           :fields="fields"

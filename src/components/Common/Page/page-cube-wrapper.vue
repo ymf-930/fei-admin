@@ -186,8 +186,8 @@ export default {
           font-size: 12px;
         }
         &:hover {
-          border-color: var(--bin-color-primary);
-          color: var(--bin-color-primary);
+          border-color: var(--fei-color-primary);
+          color: var(--fei-color-primary);
         }
       }
       &:hover {

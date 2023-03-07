@@ -61,11 +61,11 @@ export default {
   .func {
     padding: 2px 0;
     .params {
-      color: var(--bin-color-warning);
+      color: var(--fei-color-warning);
     }
   }
   .func-tip {
-    color: var(--bin-color-danger);
+    color: var(--fei-color-danger);
   }
 }
 </style>

@@ -379,7 +379,7 @@ if(validatPhone && validatAge){
 <style scoped lang="stylus">
 .drop-wrapper {
   padding: 10px;
-  border: 1px dashed var(--bin-color-primary);
+  border: 1px dashed var(--fei-color-primary);
 
   .tip {
     text-align: center;

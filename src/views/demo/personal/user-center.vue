@@ -126,7 +126,7 @@ export default {
         margin-right: 8px;
       }
     }
-    :deep(.bin-tag) {
+    :deep(.fei-tag) {
       margin: 0 6px 6px 0;
     }
   }

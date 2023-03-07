@@ -1,5 +1,5 @@
 <template>
-  <div class="bin-pivot-table">
+  <div class="fei-pivot-table">
     <!-- Top row -->
     <div class="top-row">
       <div class="left-col">

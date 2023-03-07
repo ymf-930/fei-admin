@@ -248,10 +248,10 @@ export default {
     padding: 5px 0 5px 5px;
     min-height: 400px;
     max-height: 700px;
-    :deep(.bin-tree-node) {
+    :deep(.fei-tree-node) {
       width: 100%;
     }
-    :deep(.bin-tree-render-title) {
+    :deep(.fei-tree-render-title) {
       flex: 1;
       width: auto;
       height: 24px;
@@ -270,11 +270,11 @@ export default {
     padding: 0 8px;
     height: 32px;
   }
-  :deep(.bin-tree-render-title) {
-    .bin-button {
+  :deep(.fei-tree-render-title) {
+    .fei-button {
       height: 24px;
       line-height: 1;
-      + .bin-button {
+      + .fei-button {
         margin-left: 0;
       }
     }

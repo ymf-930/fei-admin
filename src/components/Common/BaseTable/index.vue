@@ -33,14 +33,14 @@ export default {
     background: #fff;
     border-radius: 2px;
     padding: 10px 10px 0;
-    :deep(.bin-form) {
+    :deep(.fei-form) {
       display: flex;
       flex-wrap: wrap;
-      .bin-form-item {
+      .fei-form-item {
         margin-right: 0;
         margin-bottom: 10px;
         width: 33.33333333%;
-        .bin-form-item__label {
+        .fei-form-item__label {
           padding-left: 6px;
         }
       }
