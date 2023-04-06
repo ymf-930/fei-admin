@@ -245,7 +245,7 @@ export default [
         name: 'CompDoc',
         title: '组件文档',
         icon: 'link',
-        externalLink: 'https://wangbin3162.gitee.io/bin-ui-next/',
+        externalLink: 'https://ymf930.gitee.io/f-ui-one/',
       },
       {
         name: 'Github',

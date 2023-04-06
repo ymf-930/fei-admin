@@ -10,7 +10,7 @@ export default {
     {
       id: '001',
       title: 'FEI UI ONE',
-      url: 'https://daijuymf.gitee.io/f-ui-one/#/guide',
+      url: 'https://ymf930.gitee.io/f-ui-one/#/guide',
       desc: '基于vue3的ui组件库，内涵60+组件',
       banner: banner1,
       author: 'yangmengfei',

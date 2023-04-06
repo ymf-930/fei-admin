@@ -17,17 +17,17 @@
           <f-desc-item label="仓库地址">
             <a href="https://github.com/ymf-930/fei-admin" target="_blank">Github</a>
             <f-divider type="vertical"></f-divider>
-            <a href="https://gitee.com/wangbin3162/bin-admin-pro" target="_blank">Gitee</a>
+            <a href="https://gitee.com/ymf930/fei-admin" target="_blank">Gitee</a>
             <f-divider type="vertical"></f-divider>
-            <a href="https://wangbin3162.github.io/bin-admin-pro" target="_blank">Preview</a>
+            <a href="https://ymf930.gitee.io/fei-admin" target="_blank">Preview</a>
           </f-desc-item>
           <f-desc-item label="f-ui-one 地址">
             <a href="https://github.com/ymf-930/f-ui-one" target="_blank">Github</a>
             <f-divider type="vertical"></f-divider>
-            <a href="https://gitee.com/wangbin3162/bin-ui-next" target="_blank">Gitee</a>
+            <a href="https://gitee.com/ymf930/f-ui-one" target="_blank">Gitee</a>
           </f-desc-item>
           <f-desc-item label="f-ui-one 文档">
-            <a href="https://wangbin3162.gitee.io/bin-ui-next" target="_blank">文档</a>
+            <a href="https://ymf930.gitee.io/f-ui-one" target="_blank">文档</a>
           </f-desc-item>
         </f-desc>
       </div>
