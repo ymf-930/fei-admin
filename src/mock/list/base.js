@@ -27,7 +27,7 @@ export default {
       progress: 80,
       status: 'text',
     },
-    {
+/*    {
       id: '003',
       title: 'Bin Ace Editor',
       desc: '基于vue3的代码编辑器，支持多种格式',
@@ -66,7 +66,7 @@ export default {
       time: '2022-06-04 12:00:00',
       progress: 40,
       status: 'exception',
-    },
+    },*/
   ],
   total: 15,
 }

@@ -2,7 +2,7 @@
   <page-container>
     <template #desc>
       <p>
-        <a href="https://github.com/ymf-930/fei-admin" target="_blank">bin-admin-pro</a>
+        <a href="https://github.com/ymf-930/fei-admin" target="_blank">fei-admin</a>
         &nbsp; 是一个基于Vue3.0、
         <a href="https://github.com/ymf-930/f-ui-one" target="_blank">f-ui-one</a>
         &nbsp; 的后台解决方案，目标是提供简单快速的开箱解决方案，提供部分示例和更多实用工具以便快速进行后台开发。

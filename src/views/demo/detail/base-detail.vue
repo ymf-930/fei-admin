@@ -12,7 +12,7 @@
       <f-divider align="left">其他信息</f-divider>
       <f-desc>
         <f-desc-item label="姓名">王小五</f-desc-item>
-        <f-desc-item label="邮箱">bin-admin-pro@github.com</f-desc-item>
+        <f-desc-item label="邮箱">fei-admin@github.com</f-desc-item>
         <f-desc-item label="地址">徐州市</f-desc-item>
         <f-desc-item label="爱好">
           <f-tag>打篮球</f-tag>

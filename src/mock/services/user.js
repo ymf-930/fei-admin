@@ -27,7 +27,7 @@ const info = (options) => {
     permissions: {},
     realName: 'Yang',
     roleCodes: 'ROLE_ADMIN',
-    roleNames: '王彬',
+    roleNames: '杨梦飞',
     username: 'admin',
   }
   return builder(userInfo)

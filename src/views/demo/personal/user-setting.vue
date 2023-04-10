@@ -97,7 +97,7 @@
               <div class="list-item">
                 <div class="list-item-left">
                   <h4>备用邮箱</h4>
-                  <p>已绑定邮箱1950714773@qq.com</p>
+                  <p>已绑定邮箱1950***773@qq.com</p>
                 </div>
                 <div class="list-item-right">
                   <a target="_self" class="i-link">修改</a>
@@ -199,9 +199,9 @@ export default {
       },
       active: 'base',
       baseInfo: {
-        email: '316281400@qq.com',
-        name: 'Wang',
-        phone: '176****1212',
+        email: '1950***773@qq.com',
+        name: 'Yang',
+        phone: '187****5372',
         intro: '个人简介',
         address: '徐州市',
       },

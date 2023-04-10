@@ -16,7 +16,7 @@ export default {
       realName: 'Yang',
       username: 'yangmengfei',
       password: '123456',
-      email: 'user@bin.admin',
+      email: 'user@qq.com',
       verify: true, // 是否验证邮箱
       roles: 'admin',
       avatar: avatar1,

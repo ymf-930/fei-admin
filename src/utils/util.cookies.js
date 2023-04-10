@@ -1,7 +1,7 @@
 import Cookies from 'js-cookie'
 
 const cookies = {}
-const KEY = 'bin-admin-pro'
+const KEY = 'fei-admin'
 
 /**
  * @description 存储 cookie 值

@@ -6,8 +6,8 @@
           <div class="avatar">
             <img src="@/assets/images/avatar/avatar05.jpeg" class="avatar-img" alt="avatar" />
           </div>
-          <h2>Wang</h2>
-          <p>千里之行，始于足下。</p>
+          <h2>Yang</h2>
+          <p>让花成花，让树成树。</p>
           <div class="desc">
             <f-icon name="flag"></f-icon>
             前端工程师
@@ -26,7 +26,7 @@
           <f-tag>前端开发 ⛲</f-tag>
           <f-tag>vue3 🍀</f-tag>
           <f-tag>专注前端 🌟</f-tag>
-          <f-tag>大佬 🙋</f-tag>
+          <f-tag>菜鸟 🙋</f-tag>
           <f-tag>懂点设计 💎</f-tag>
           <f-tag>交互内容 🔖</f-tag>
         </f-card>
@@ -34,7 +34,13 @@
       <f-col span="17">
         <f-card :bordered="false" shadow="never" :body-style="{ padding: '8px 0 0' }">
           <f-tabs v-model="activeTab" :data="tabs"></f-tabs>
-          <div v-if="activeTab === 'tab1'" class="p16">
+          <div v-if="activeTab === 'tab1'" class="pt-16 pl-16">
+            <img-item v-for="(item, index) in projectList" :key="index" :item="item"></img-item>
+          </div>
+          <div v-if="activeTab === 'tab2'" class="p16">
+            <app-item v-for="(item, index) in projectList" :key="index" :item="item"></app-item>
+          </div>
+          <div v-if="activeTab === 'tab3'" class="p16">
             <f-skeleton :loading="loading" animation>
               <template #template>
                 <f-skeleton />
@@ -47,12 +53,6 @@
                 <article-item v-for="(item, index) in articleList" :key="index" :item="item"></article-item>
               </template>
             </f-skeleton>
-          </div>
-          <div v-if="activeTab === 'tab2'" class="pt-16 pl-16">
-            <img-item v-for="(item, index) in projectList" :key="index" :item="item"></img-item>
-          </div>
-          <div v-if="activeTab === 'tab3'" class="p16">
-            <app-item v-for="(item, index) in projectList" :key="index" :item="item"></app-item>
           </div>
         </f-card>
       </f-col>
@@ -68,9 +68,9 @@ export default {
   data() {
     return {
       tabs: [
-        { key: 'tab1', title: '文章' },
-        { key: 'tab2', title: '项目' },
-        { key: 'tab3', title: '应用' },
+        { key: 'tab1', title: '项目' },
+        { key: 'tab2', title: '应用' },
+        { key: 'tab3', title: '文章' },
       ],
       activeTab: 'tab1',
       articleList: [],
@@ -82,9 +82,9 @@ export default {
     this.loading = true
     const articles = await getArticleList()
     const projects = await getProjectList()
-    this.tabs[0].title = `文章(${articles.rows.length})`
-    this.tabs[1].title = `项目(${projects.rows.length})`
-    this.tabs[2].title = `应用(${projects.rows.length})`
+    this.tabs[0].title = `项目(${projects.rows.length})`
+    this.tabs[1].title = `应用(${projects.rows.length})`
+    this.tabs[2].title = `文章(${articles.rows.length})`
     this.articleList = articles.rows
     this.projectList = projects.rows
     this.loading = false
