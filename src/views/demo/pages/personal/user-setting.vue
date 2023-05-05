@@ -52,7 +52,7 @@
                   <div class="avatar-wrap">
                     <div class="mb-8">头像</div>
                     <div class="avatar-img mb-8">
-                      <img src="@/assets/images/avatar/avatar05.jpeg" alt="logo">
+                      <img src='../../../../assets/images/avatar/avatar05.jpeg' alt="logo">
                     </div>
                     <f-upload action="">
                       <f-button icon="cloud-upload">更换头像</f-button>
@@ -216,8 +216,8 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import "../../../assets/stylus/base/var.styl"
-@import "../../../assets/stylus/base/mixins.styl"
+@import "../../../../assets/stylus/base/var.styl"
+@import "../../../../assets/stylus/base/mixins.styl"
 .setting-wrap {
   margin: 16px;
   .ctrl-header {

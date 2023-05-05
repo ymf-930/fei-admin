@@ -2,7 +2,7 @@
   <div class="system-error-page">
     <div class="fei-result">
       <div class="fei-result-icon fei-result-image">
-        <img src="@/assets/images/default/error404.svg" alt="404">
+        <img src='../../../../assets/images/default/auth.svg' alt="403">
       </div>
       <div class="fei-result-title">{{ status }}</div>
       <div class="fei-result-subtitle">{{ errorMessage }}</div>
@@ -23,24 +23,24 @@ import { ref } from 'vue'
 import { HOME_PATH } from '@/router/menus'
 
 export default {
-  name: 'Error404',
+  name: 'Error500',
   setup() {
     // 此代码根据ERROR_PATH_LIST错误路由列表映射而来，如后缀了message，query，则默认先显示对应错误
     const errorNormalMsg = {
       403: '抱歉，您无权访问此页面！',
       404: '抱歉，你访问的页面不存在！',
-      500: '抱歉，服务器出错了！'
+      500: '抱歉，服务器出错了！',
     }
 
-    const status = ref(404)
-    const errorMessage = ref('抱歉，你访问的页面不存在！')
+    const status = ref(403)
+    const errorMessage = ref('抱歉，您无权访问此页面！')
 
     return {
       status,
       errorMessage,
-      HOME_PATH
+      HOME_PATH,
     }
-  }
+  },
 }
 </script>
 

@@ -153,7 +153,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import "../../../assets/stylus/base/var.styl"
+@import "../../../../assets/stylus/base/var.styl"
 .list-wrap {
   min-height: 200px;
   .user-list-item {

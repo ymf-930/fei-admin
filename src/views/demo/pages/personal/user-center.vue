@@ -4,7 +4,7 @@
       <f-col span="7">
         <f-card class="info-pane" :bordered="false" shadow="never">
           <div class="avatar">
-            <img src="@/assets/images/avatar/avatar05.jpeg" class="avatar-img" alt="avatar" />
+            <img src='../../../../assets/images/avatar/avatar05.jpeg' class="avatar-img" alt="avatar" />
           </div>
           <h2>Yang</h2>
           <p>让花成花，让树成树。</p>
@@ -93,8 +93,8 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import "../../../assets/stylus/base/var.styl"
-@import "../../../assets/stylus/base/mixins.styl"
+@import "../../../../assets/stylus/base/var.styl"
+@import "../../../../assets/stylus/base/mixins.styl"
 .center-wrap {
   margin: 16px;
   .info-pane {

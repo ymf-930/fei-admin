@@ -2,6 +2,9 @@ import { Utils, Notice } from 'f-ui-one'
 
 export const generateId = Utils.helper.generateId
 
+
+export const getUuid = Utils.util.uuid
+
 export const copyText = Utils.util.copy
 
 export const typeOf = Utils.util.typeOf

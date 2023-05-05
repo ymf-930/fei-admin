@@ -6,11 +6,11 @@
         <li v-for="n in 10" :key="n"></li>
       </ul>
     </div>
-    <div class="g-bg">
+<!--    <div class="g-bg">
       <css-doodle>
         {{ doodle }}
       </css-doodle>
-    </div>
+    </div>-->
     <!--登录框-->
     <div class="layer">
       <div class="content" flex="dir:top main:justify cross:center box:justify">
@@ -176,10 +176,10 @@ export default {
   background-color: #F0F2F5;
   height: 100vh;
   position: relative;
-  //background-image: url('@/assets/images/login-background.svg');
-  //background-repeat: no-repeat;
-  //background-position: center 110px;
-  //background-size: 100%;
+  background-image: url('@/assets/images/login-background.svg');
+  background-repeat: no-repeat;
+  background-position: center 110px;
+  background-size: 100%;
   .layer {
     position: absolute;
     left: 0;

@@ -2,7 +2,7 @@
   <div class="system-error-page">
     <div class="fei-result">
       <div class="fei-result-icon fei-result-image">
-        <img src="@/assets/images/default/auth.svg" alt="403">
+        <img src='../../../../assets/images/default/error500.svg' alt="500">
       </div>
       <div class="fei-result-title">{{ status }}</div>
       <div class="fei-result-subtitle">{{ errorMessage }}</div>
@@ -32,8 +32,8 @@ export default {
       500: '抱歉，服务器出错了！',
     }
 
-    const status = ref(403)
-    const errorMessage = ref('抱歉，您无权访问此页面！')
+    const status = ref(500)
+    const errorMessage = ref('抱歉，服务器出错了！')
 
     return {
       status,

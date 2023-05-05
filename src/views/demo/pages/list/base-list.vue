@@ -119,7 +119,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import "../../../assets/stylus/base/var.styl"
+@import "../../../../assets/stylus/base/var.styl"
 .task-wrapper {
   text-align: center;
   margin-bottom: 16px;
