@@ -67,7 +67,7 @@
             <f-form-item
               label="支付密码"
               prop="password"
-              :rules="{ required: true, message: '域名不能为空', trigger: 'blur' }"
+              :rules="{ required: true, message: '支付密码不能为空', trigger: 'blur' }"
             >
               <f-input v-model="form2.password" type="password"></f-input>
             </f-form-item>
