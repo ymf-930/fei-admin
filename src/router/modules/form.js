@@ -12,6 +12,12 @@ export default [
     meta: { title: '分步表单' },
   },
   {
+    path: 'stepTask',
+    name: 'stepTask',
+    component: () => import('@/views/demo/form/step-task.vue'),
+    meta: { title: '分步任务' },
+  },
+  {
     path: 'advancedForm',
     name: 'AdvancedForm',
     component: () => import('@/views/demo/form/advanced-form.vue'),

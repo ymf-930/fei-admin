@@ -25,9 +25,9 @@ const info = (options) => {
     departName: '信用办',
     functions: [...testMenu],
     permissions: {},
-    realName: 'Wang',
+    realName: 'Yang',
     roleCodes: 'ROLE_ADMIN',
-    roleNames: '王彬',
+    roleNames: '杨梦飞',
     username: 'admin',
   }
   return builder(userInfo)
