@@ -5,7 +5,7 @@
         <h2>项目开发进度（编号：10000）</h2>
         <br />
         <f-desc>
-          <f-desc-item label="责任人">Wang</f-desc-item>
+          <f-desc-item label="责任人">Yang</f-desc-item>
           <f-desc-item label="审批人">Jack</f-desc-item>
           <f-desc-item label="创建时间">2021-06-30</f-desc-item>
           <f-desc-item label="当前状态">
@@ -39,7 +39,7 @@
     <f-collapse-wrap title="基本信息" shadow="none">
       <div class="p20">
         <f-desc>
-          <f-desc-item label="负责人">Wang</f-desc-item>
+          <f-desc-item label="负责人">Yang</f-desc-item>
           <f-desc-item label="审批人">Jack</f-desc-item>
           <f-desc-item label="拟定完成时间">2021-06-30</f-desc-item>
           <f-desc-item label="当前状态">
@@ -85,7 +85,7 @@ export default {
         { title: '所属分组', key: 'dept' },
       ],
       data: [
-        { name: 'Wang', no: '001', dept: '前端组' },
+        { name: 'Yang', no: '001', dept: '前端组' },
         { name: '郭小宁', no: '002', dept: '前端组' },
         { name: '约修亚', no: '003', dept: '前端组' },
         { name: '李小红', no: '004', dept: '后端组' },

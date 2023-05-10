@@ -30,7 +30,7 @@
                 <f-input
                   type="text"
                   v-model="formLogin.username"
-                  placeholder="用户名[admin,wang]"
+                  placeholder="用户名[admin,yang]"
                   @keydown.enter="submit"
                 >
                   <template #prefix>

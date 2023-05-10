@@ -6,7 +6,7 @@
           <div class="avatar">
             <img src="@/assets/images/avatar/avatar05.jpeg" class="avatar-img" alt="avatar" />
           </div>
-          <h2>Wang</h2>
+          <h2>Yang</h2>
           <p>千里之行，始于足下。</p>
           <div class="desc">
             <f-icon name="flag"></f-icon>
