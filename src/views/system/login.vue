@@ -6,11 +6,11 @@
         <li v-for="n in 10" :key="n"></li>
       </ul>
     </div>
-    <div class="g-bg">
+<!--    <div class="g-bg">
       <css-doodle>
         {{ doodle }}
       </css-doodle>
-    </div>
+    </div>-->
     <!--登录框-->
     <div class="layer">
       <div class="content" flex="dir:top main:justify cross:center box:justify">
@@ -20,8 +20,8 @@
         <div class="main" flex="dir:top main:center cross:center">
           <!-- logo -->
           <div class="page-login--logo">
-            <img src="@/assets/images/logo/bin-ui-next-02.svg" alt="logo" />
-            <span>BIN-ADMIN-PRO</span>
+            <img src="@/assets/images/logo/fei-admin-logo.svg" alt="logo" />
+            <span>FEI-ADMIN</span>
           </div>
           <!-- 表单 -->
           <div class="form">
@@ -74,7 +74,7 @@
         </div>
         <div class="footer">
           <p class="footer-copyright">
-            bin admin pro 简版后台管理系统vue3 重构版
+            fei admin 简版后台管理系统vue3
             <a href="https://github.com/ymf-930/fei-admin" target="_blank">github</a>
           </p>
         </div>
@@ -176,10 +176,10 @@ export default {
   background-color: #F0F2F5;
   height: 100vh;
   position: relative;
-  //background-image: url('@/assets/images/login-background.svg');
-  //background-repeat: no-repeat;
-  //background-position: center 110px;
-  //background-size: 100%;
+  background-image: url('@/assets/images/login-background.svg');
+  background-repeat: no-repeat;
+  background-position: center 110px;
+  background-size: 100%;
   .layer {
     position: absolute;
     left: 0;

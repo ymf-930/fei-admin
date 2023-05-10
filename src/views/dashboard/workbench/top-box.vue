@@ -23,7 +23,7 @@
           <f-tag>前端开发 ⛲</f-tag>
           <f-tag>vue3 🍀</f-tag>
           <f-tag>专注前端 🌟</f-tag>
-          <f-tag>大佬 🙋</f-tag>
+          <f-tag>菜鸟 🙋</f-tag>
           <f-tag>懂点设计 💎</f-tag>
           <f-tag>交互内容 🔖</f-tag>
         </div>

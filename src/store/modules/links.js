@@ -3,11 +3,12 @@ import { defineStore } from 'pinia'
 const useLinks = defineStore('links', {
   state: () => ({
     links: [
-      { link: 'https://daijuymf.gitee.io/bin-ui-next', text: 'f-ui-one', newTab: true },
-      { link: 'https://wangbin3162.gitee.io/bin-editor-next', text: 'bin-editor-next', newTab: true },
-      { link: 'https://wangbin3162.gitee.io/bin-charts-next', text: 'bin-charts-next', newTab: true },
-      { link: 'https://wangbin3162.gitee.io/bin-tree-org', text: 'bin-tree-org', newTab: true },
-      { link: 'https://wangbin3162.gitee.io/bin-animation', text: 'bin-animation', newTab: true },
+      { link: 'https://ymf930.gitee.io/f-ui-one', text: 'f-ui-one', newTab: true },
+      { link: 'https://ymf930.gitee.io/my-introduce-web', text: 'my-introduce-web', newTab: true },
+      // { link: 'https://wangbin3162.gitee.io/bin-editor-next', text: 'bin-editor-next', newTab: true },
+      // { link: 'https://wangbin3162.gitee.io/bin-charts-next', text: 'bin-charts-next', newTab: true },
+      // { link: 'https://wangbin3162.gitee.io/bin-tree-org', text: 'bin-tree-org', newTab: true },
+      // { link: 'https://wangbin3162.gitee.io/bin-animation', text: 'bin-animation', newTab: true },
     ],
   }),
   getters: {},

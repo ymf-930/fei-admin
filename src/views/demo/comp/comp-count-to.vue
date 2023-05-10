@@ -50,7 +50,7 @@ export default {
   data() {
     return {
       startVal: 0,
-      endVal: 2021,
+      endVal: 2023,
       duration: 4000,
       prefix: '¥',
       suffix: 'rmb',

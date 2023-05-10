@@ -1,13 +1,16 @@
 // light皮肤
 [data-theme=light] {
   // logo样式
+
   .layout-aside {
     .logo {
       border-bottom: 1px solid #eeeeee;
+
       h1 {
         color: getColor();
       }
     }
+
     &:after {
       content: '';
       position: absolute;
@@ -18,97 +21,118 @@
       background-color: #eeeeee;
     }
   }
-  // menu样式
-  .fei-menu {
-    .fei-menu-item {
-      background: #fff;
-      &:hover {
-        color: getColor();
-      }
-      &.is-active {
-        color: getColor();
-        background: getLightenHover();
-        &::after {
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: 2px;
-          height: 100%;
-          background-color: getColor();
-          content: '';
-          z-index: 1;
-        }
-      }
-    }
-    .fei-submenu__title {
-      background: #fff;
-      &:hover {
-        color: getColor();
-      }
-    }
-    // 收起菜单的样式
-    &.fei-menu--collapse {
+
+  .aside-menu {
+    // menu样式
+
+    .fei-menu {
       .fei-menu-item {
-        &.is-active {
-          &::after {
-            left: 0;
-            right: unset;
-          }
+        background: #fff;
+
+        &:hover {
+          color: getColor();
         }
-      }
-      .fei-submenu.is-active {
-        .fei-submenu__title {
+
+        &.is-active {
+          color: getColor();
           background: getLightenHover();
-        }
-        &::before {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 2px;
-          height: 100%;
-          background-color: getColor();
-          content: '';
-          z-index: 1;
-        }
-      }
-    }
-    &.fei-menu--horizontal {
-      .fei-menu-item {
-        &.is-active {
-          background-color: $color-text-white;
-          border-bottom-color: getColor();
+
           &::after {
-            content: unset;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background-color: getColor();
+            content: '';
+            z-index: 1;
           }
         }
       }
-      .fei-submenu {
-        .fei-submenu__title {
-          &:not(.is-disabled):hover, &:not(.is-disabled):focus {
-            color: getColor();
-            background: getMenuBg() !important;
-          }
-          &:hover {
-            color: getColor();
-            background: getMenuBg() !important;
+
+      .fei-submenu__title {
+        background: #fff;
+
+        &:hover {
+          color: getColor();
+        }
+      }
+
+      // 收起菜单的样式
+
+      &.fei-menu--collapse {
+        .fei-menu-item {
+          &.is-active {
+            &::after {
+              left: 0;
+              right: unset;
+            }
           }
         }
-        &.is-active {
+
+        .fei-submenu.is-active {
           .fei-submenu__title {
+            background: getLightenHover();
+          }
+
+          &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background-color: getColor();
+            content: '';
+            z-index: 1;
+          }
+        }
+      }
+
+      &.fei-menu--horizontal {
+        .fei-menu-item {
+          &.is-active {
+            background-color: $color-text-white;
             border-bottom-color: getColor();
-            color: getColor();
+
+            &::after {
+              content: unset;
+            }
+          }
+        }
+
+        .fei-submenu {
+          .fei-submenu__title {
+            &:not(.is-disabled):hover, &:not(.is-disabled):focus {
+              color: getColor();
+              background: getMenuBg() !important;
+            }
+
+            &:hover {
+              color: getColor();
+              background: getMenuBg() !important;
+            }
+          }
+
+          &.is-active {
+            .fei-submenu__title {
+              border-bottom-color: getColor();
+              color: getColor();
+            }
           }
         }
       }
     }
   }
+
   // menu-popup
+
   .fei-menu--popup {
     .fei-menu-item, .fei-submenu__title {
       &:hover {
         color: getColor();
         background: #fff;
       }
+
       &.is-active {
         color: getColor();
         background: getLightenHover();

@@ -10,7 +10,7 @@
       </div>
     </template>
     <div class="items-wrap">
-      <a class="hover-item" href="https://wangbin3162.gitee.io/bin-ui-next" target="_blank">
+      <a class="hover-item" href="https://ymf930.gitee.io/f-ui-one/" target="_blank">
         <div class="title">
           <iconfont icon="appstore" color="#25bbe3" :size="36" bg round />
           <span class="ml-15">FEI UI ONE</span>
@@ -21,7 +21,7 @@
           <span>1.0.0</span>
         </div>
       </a>
-      <a class="hover-item" href="https://wangbin3162.gitee.io/bin-editor-next" target="_blank">
+<!--      <a class="hover-item" href="" target="_blank">
         <div class="title">
           <iconfont icon="codelibrary" color="#4ab017" :size="36" bg round />
           <span class="ml-15">Ace Editor</span>
@@ -32,7 +32,7 @@
           <span>1.0.0</span>
         </div>
       </a>
-      <a class="hover-item" href="https://wangbin3162.gitee.io/bin-charts-next" target="_blank">
+      <a class="hover-item" href="" target="_blank">
         <div class="title">
           <iconfont icon="barchart" color="#304255" :size="36" bg round />
           <span class="ml-15">Charts</span>
@@ -43,7 +43,7 @@
           <span>1.0.0</span>
         </div>
       </a>
-      <a class="hover-item" href="https://wangbin3162.gitee.io/bin-tree-org" target="_blank">
+      <a class="hover-item" href="" target="_blank">
         <div class="title">
           <iconfont icon="cluster" color="#fa8c16" :size="36" bg round />
           <span class="ml-15">Tree Org</span>
@@ -54,7 +54,7 @@
           <span>1.3.0</span>
         </div>
       </a>
-      <a class="hover-item" href="https://wangbin3162.gitee.io/bin-animation" target="_blank">
+      <a class="hover-item" href="" target="_blank">
         <div class="title">
           <iconfont icon="thunderbolt" color="#eb2f96" :size="36" bg round />
           <span class="ml-15">Animation</span>
@@ -64,13 +64,13 @@
           <span>Javascript</span>
           <span>1.1.1</span>
         </div>
-      </a>
-      <a class="hover-item" href="https://wangbin3162.gitee.io/bin-admin-pro" target="_blank">
+      </a>-->
+      <a class="hover-item" href="https://ymf930.gitee.io/fei-admin" target="_blank">
         <div class="title">
           <iconfont icon="sketch" color="#8e58da" :size="36" bg round />
-          <span class="ml-15">Admin Pro</span>
+          <span class="ml-15">Fei Admin</span>
         </div>
-        <div class="desc">基于 bin-ui 的集成管理平台</div>
+        <div class="desc">基于 f-ui-one 的集成管理平台</div>
         <div class="desc" flex="main:justify">
           <span>admin</span>
           <span>1.0.0</span>
