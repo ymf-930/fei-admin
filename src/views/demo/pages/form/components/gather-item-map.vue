@@ -30,11 +30,6 @@
         />
       </div>
     </div>
-<!--    <f-loading
-      fix
-      show-text="加载中..."
-      v-if="sourceTableLoading || targetTableLoading"
-    ></f-loading>-->
     <!--右侧操作面板-->
     <right-table-wrap
       :tableList1="tableList1"
@@ -46,27 +41,6 @@
       @cancelOneMap="cancelOneMap"
     ></right-table-wrap>
   </div>
-<!--  <data-source
-    ref="sourceRef"
-    v-model="mapObj"
-    :sourceLinkMeta="sourceLinkMeta"
-    :sourceTableList="sourceTableList"
-    :tableSourceItems="tableSourceItems"
-    :itemloading="itemloading"
-    @change="handleSourceSubmit"
-    @clear="clearSourceTable"
-  ></data-source>
-  <data-target
-    ref="writerRef"
-    v-model="mapObj"
-    :targetLinkMeta="targetLinkMeta"
-    :targetTableList="targetTableList"
-    :tableTargetItems="tableTargetItems"
-    :itemloading="itemloading"
-    @change="handleTargetSubmit"
-    @clear="clearTargetTable"
-  ></data-target>
-  <mapping-edit ref="mappingEditRef" v-model="editForm" @saveEditForm="saveEditForm"></mapping-edit>-->
 </template>
 
 <script>
@@ -74,9 +48,6 @@ import { computed, ref } from 'vue'
 import FieldList from '@/views/demo/pages/form/components/field-list.vue'
 import RightTableWrap from '@/views/demo/pages/form/components/right-table-wrap.vue'
 import useItemMap from '@/views/demo/pages/form/components/useItemMapping'
-// import MappingEdit from '@/views/demo/pages/form/components/mapping-edit.vue'
-// import DataSource from '@/views/demo/pages/form/components/data-source.vue'
-// import DataTarget from '@/views/demo/pages/form/components/data-target.vue'
 
 export default {
   name: 'gather-item-map',

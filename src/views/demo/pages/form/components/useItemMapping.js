@@ -1,6 +1,5 @@
 import { computed, inject, reactive, ref, toRefs } from 'vue'
-import { deepCopy, isEmpty, throwError } from '@/utils/util'
-import { getTableItems, getMetaStorageDetail } from '@/api/modules/step-task.api'
+import { deepCopy, isEmpty } from '@/utils/util'
 import { Message } from 'f-ui-one'
 
 export default function useItemMap(props, emit) {
@@ -30,7 +29,6 @@ export default function useItemMap(props, emit) {
   let autoMapFlag = ref(true)
   const currentStep = inject('TaskStep')
 
-  const itemloading = ref(false)
   // 获取源资源信息项
   const getSourceItems = async () => {
     tables.tableSourceData = {
@@ -356,17 +354,13 @@ export default function useItemMap(props, emit) {
     })
   }
 
-  // const sourceRef = ref('')
-  // const writerRef = ref('')
   // 配置按钮（todo：弹窗编辑后，载入对应数据源的字段列表
   async function loadSourceFields() {
     await getSourceItems()
-    // sourceRef.value && sourceRef.value.open()
   }
 
   async function loadWriterFields() {
     await getTargetItems()
-    // writerRef.value && writerRef.value.open()
   }
 
   function handleSourceSubmit(nodeTableName) {
@@ -406,13 +400,10 @@ export default function useItemMap(props, emit) {
 
     loadSourceFields,
     loadWriterFields,
-    // sourceRef,
-    // writerRef,
     handleSourceSubmit,
     handleTargetSubmit,
     changeStep,
     mapObj,
     getSourceItems,
-    itemloading,
   }
 }
