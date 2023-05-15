@@ -252,7 +252,7 @@ export default {
   .weather-current {
     > .qi-icon {
       font-size: 48px;
-      color: var(--bin-color-primary);
+      color: var(--fei-color-primary);
       margin-right: 16px;
     }
   }
@@ -284,7 +284,7 @@ export default {
   }
   .weather-icon {
     font-size: 24px;
-    color: var(--bin-color-primary);
+    color: var(--fei-color-primary);
   }
   .weather-daily {
     width: 100%;

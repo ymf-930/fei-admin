@@ -679,19 +679,19 @@ defineExpose({
 })
 </script>
 <style scoped lang="stylus">
-:deep(.bin-radio){
+:deep(.fei-radio){
     display: block;
     margin: 15px 0px;
     width: 80px
     padding:0 5px;
 }
-:deep(.bin-checkbox-group){
+:deep(.fei-checkbox-group){
     display: flex;
     flex-wrap: wrap;
     width: 600px;
 }
 .checkbox{
-  :deep(.bin-button){
+  :deep(.fei-button){
       padding: 0 5px;
   }
 }
@@ -706,7 +706,7 @@ defineExpose({
 .footer{
   margin:20px 0px;
   text-align:center;
-  :deep(.bin-button){
+  :deep(.fei-button){
     padding:0 40px;
   }
 }

@@ -93,6 +93,10 @@ export default [
             title: '分步表单',
           },
           {
+            name: 'StepTask',
+            title: '分步任务',
+          },
+          {
             name: 'AdvancedForm',
             title: '高级表单',
           },

@@ -42,10 +42,10 @@ function deleteElement() {
   top: 0;
   list-style-type: none;
   padding: 4px 0;
-  border-radius: var(--bin-border-base-radius);
-  font-size: var(--bin-base-font-size);
-  color: var(--bin-color-text-default);
-  border: 1px solid var(--bin-border-color-light);
+  border-radius: var(--fei-border-base-radius);
+  font-size: var(--fei-base-font-size);
+  color: var(--fei-color-text-default);
+  border: 1px solid var(--fei-border-color-light);
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1)
   li {
     margin: 0;
@@ -53,10 +53,10 @@ function deleteElement() {
     cursor: pointer;
     line-height: 1em;
     list-style: none;
-    color: var(--bin-color-text-default);
+    color: var(--fei-color-text-default);
     &:hover {
-      background: var(--bin-color-primary-light5);
-      color: var(--bin-color-primary);
+      background: var(--fei-color-primary-light5);
+      color: var(--fei-color-primary);
     }
   }
 }

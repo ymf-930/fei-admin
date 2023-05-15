@@ -13,8 +13,8 @@ export default [
   },
   {
     path: 'stepTask',
-    name: 'stepTask',
-    component: () => import('@/views/demo/form/step-task.vue'),
+    name: 'StepTask',
+    component: () => import('@/views/demo/pages/form/step-task.vue'),
     meta: { title: '分步任务' },
   },
   {
