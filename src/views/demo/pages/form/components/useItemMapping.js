@@ -106,7 +106,6 @@ export default function useItemMap(props, emit) {
         "dataType": "varchar"
       }
     ]
-    console.log(tables.tableTargetItems)
     tables.tableList2 = deepCopy(tables.tableTargetItems)
   }
 
@@ -130,7 +129,6 @@ export default function useItemMap(props, emit) {
     tables.tableTargetData = {}
     tables.tableTargetItems = []
     tables.tableList2 = []
-    mapObj.value.metadataKey = ''
     mapObj.value.metadataName = ''
     cancelAllMap()
   }
@@ -247,23 +245,6 @@ export default function useItemMap(props, emit) {
     autoMapFlag.value = false
   }
 
-  // 源资源行点击触发
-  function handleSourceClick(currentRow, index) {
-    if (tables.currentRow1Index !== index) {
-      tables.currentRow1Index = index
-      tables.currentRow1 = currentRow
-      return
-    }
-    sourceTableRef.value && sourceTableRef.value.clearCurrentRow()
-    tables.currentRow1Index = -1
-    tables.currentRow1 = null
-  }
-
-  // 目标资源当前行改变
-  function handleCurrentChange2(currentRow) {
-    tables.currentRow2 = currentRow
-  }
-
   // 取消映射后从顶部恢复两个项
   function unshiftTable(sourceName, targetName) {
     const row1 = tables.tableList1.find(i => i.name.toLowerCase() === sourceName.toLowerCase())
@@ -290,15 +271,7 @@ export default function useItemMap(props, emit) {
     }
   }
 
-  // 映射编辑
-  const mappingEditRef = ref('')
   const editForm = ref({})
-  // 映射编辑
-  function handleMapEdit(row, index) {
-    editForm.value = deepCopy({ ...row, index })
-    mappingEditRef.value &&
-      mappingEditRef.value.open({ activeTab: row.defaultValue ? 'tab1' : 'tab2' })
-  }
 
   // 映射编辑保存
   function saveEditForm() {
@@ -363,17 +336,6 @@ export default function useItemMap(props, emit) {
     await getTargetItems()
   }
 
-  function handleSourceSubmit(nodeTableName) {
-    cancelAllMap()
-    getSourceItems(nodeTableName)
-  }
-
-  function handleTargetSubmit(selectObj) {
-    cancelAllMap()
-    getTargetItems(selectObj.value)
-  }
-
-
   return {
     // ***** 源表和目标表列表 ***** //
     ...toRefs(tables),
@@ -388,22 +350,17 @@ export default function useItemMap(props, emit) {
     handleLink,
     cancelOneMap,
     cancelAllMap,
-    handleSourceClick,
-    handleCurrentChange2,
     intersectionFields,
     targetHasNoMatch,
-    handleMapEdit,
-    mappingEditRef,
     editForm,
     saveEditForm,
     echoData,
 
     loadSourceFields,
     loadWriterFields,
-    handleSourceSubmit,
-    handleTargetSubmit,
     changeStep,
     mapObj,
     getSourceItems,
+    getTargetItems
   }
 }

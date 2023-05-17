@@ -21,14 +21,6 @@
 
 <script setup>
 import { computed } from 'vue'
-import { SYNC_STRATEGY } from '@/api/modules/step-task.api'
-import {
-  GENERIC_CATE, //通用
-  DATACOLLECT, //帖源
-  SUBMIT_EXCHANGE, //上报
-  SCRIPT_EXCHANGE, //脚本
-  ARCHIVE_EXCHANGE, //归档
-} from '@/api/const.api'
 import CronExpressionModal from '@/components/Service/CronExpressions/cron-expression-modal.vue'
 
 const props = defineProps({

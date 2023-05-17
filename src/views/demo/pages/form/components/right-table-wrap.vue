@@ -74,13 +74,6 @@
             <template #action="{ row, index }">
               <action-button
                 type="text"
-                icon="edit-square"
-                tooltip="编辑"
-                @click="() => emit('handleMapEdit', row, index)"
-              ></action-button>
-              <f-divider type="vertical"></f-divider>
-              <action-button
-                type="text"
                 icon="minus-circle"
                 color="danger"
                 tooltip="移除"
@@ -111,11 +104,10 @@ defineProps({
     default: () => [],
   },
 })
-const emit = defineEmits(['autoMap', 'cancelAllMap', 'handleMapEdit', 'cancelOneMap'])
+const emit = defineEmits(['autoMap', 'cancelAllMap', 'cancelOneMap'])
 const columns = ref([
   { title: '源信息项', key: 'sourceName', minWidth: 140 },
   { title: '目标信息项', slot: 'targetName', minWidth: 140 },
-  { title: ' ', slot: 'icon', width: 100 },
   { title: '操作', slot: 'action', width: 100 },
 ])
 

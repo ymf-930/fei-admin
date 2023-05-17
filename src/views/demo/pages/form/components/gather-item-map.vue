@@ -37,7 +37,6 @@
       :itemMaps="itemMaps"
       @autoMap="autoMap"
       @cancelAllMap="cancelAllMap"
-      @handleMapEdit="handleMapEdit"
       @cancelOneMap="cancelOneMap"
     ></right-table-wrap>
   </div>

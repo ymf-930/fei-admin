@@ -86,9 +86,6 @@ const nodeContainerClass = computed(() => ['ef-node-container', `el-node-info`, 
       border-color: #8A92A6;
     }
   }
-  .ef-node-left-ico:hover {
-    cursor: crosshair;
-  }
   &.ef-drop-hover {
     border: 1px dashed #1879FF;
   }
