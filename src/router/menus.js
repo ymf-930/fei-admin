@@ -34,6 +34,10 @@ export default [
         title: '图标组件',
       },
       {
+        name: 'CompAutoInput',
+        title: '输入建议',
+      },
+      {
         name: 'CompSvgLoading',
         title: 'Svg Loading',
       },
@@ -245,7 +249,7 @@ export default [
         name: 'DataV',
         title: 'DataV',
         icon: 'link',
-        externalLink: '#',
+        externalLink: 'https://ymf930.gitee.io/fei-datav/',
       },
       {
         name: 'DataVSchema',

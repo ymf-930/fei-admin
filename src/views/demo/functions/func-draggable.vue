@@ -65,8 +65,12 @@
             </draggable>
           </f-col>
         </f-row>
-        <p>data left:{{ data2 }}</p>
-        <p>data right:{{ data3 }}</p>
+        <div class="pt-16">
+          <f-alert>data left: {{ data2 }}</f-alert>
+        </div>
+        <div>
+          <f-alert>data right: {{ data3 }}</f-alert>
+        </div>
       </div>
     </f-collapse-wrap>
   </page-container>
