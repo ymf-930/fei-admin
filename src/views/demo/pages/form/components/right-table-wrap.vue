@@ -39,38 +39,6 @@
             <template #targetName="{ row }">
               <span :title="row.desc">{{ row.targetName }}</span>
             </template>
-            <template #icon="{ row }">
-              <div style="height: 100%" flex="main:right cross:center">
-                <f-popover
-                  v-if="row.transValue"
-                  trigger="hover"
-                  title="表达式"
-                  :content="row.transValue"
-                  width="240px"
-                >
-                  <img src="@/assets/images/gather-task/set-function.svg" class="my-img" />
-                </f-popover>
-                <f-popover
-                  v-if="row.defaultValue"
-                  trigger="hover"
-                  title="缺省值"
-                  :content="row.defaultValue"
-                >
-                  <img src="@/assets/images/gather-task/set-default.svg" class="my-img" />
-                </f-popover>
-                <f-popover
-                  v-if="row.dictMap.length > 0"
-                  trigger="hover"
-                  title="字典项"
-                  width="240px"
-                >
-                  <img src="@/assets/images/gather-task/set-dictMap.svg" class="my-img" />
-                  <template #content>
-                    <f-table :columns="mapColumns" :data="row.dictMap" size="small"></f-table>
-                  </template>
-                </f-popover>
-              </div>
-            </template>
             <template #action="{ row, index }">
               <action-button
                 type="text"
@@ -111,10 +79,6 @@ const columns = ref([
   { title: '操作', slot: 'action', width: 100 },
 ])
 
-const mapColumns = ref([
-  { title: 'key值', key: 'key' },
-  { title: 'value值', key: 'value' },
-])
 </script>
 <style scoped lang="stylus">
 .right-table-wrap {
@@ -182,7 +146,7 @@ const mapColumns = ref([
     .ctrl {
       flex:1;
       text-align:right;
-       :deep(.b-iconfont){
+       :deep(.f-iconfont){
           font-size: 24px !important
         }
     }
