@@ -18,7 +18,7 @@ specifiers:
   eslint: ^8.40.0
   eslint-plugin-import: ^2.27.5
   eslint-plugin-vue: ^9.13.0
-  f-ui-one: ^1.0.4
+  f-ui-one: ^1.0.5
   gsap: ^3.11.4
   javascript-natural-sort: ^0.7.1
   js-cookie: ^3.0.5
@@ -48,7 +48,7 @@ dependencies:
   css-doodle: registry.npmmirror.com/css-doodle/0.34.9
   dayjs: registry.npmmirror.com/dayjs/1.11.7
   echarts: registry.npmmirror.com/echarts/5.4.2
-  f-ui-one: registry.npmmirror.com/f-ui-one/1.0.4_vue@3.3.4
+  f-ui-one: registry.npmmirror.com/f-ui-one/1.0.5_vue@3.3.4
   gsap: registry.npmmirror.com/gsap/3.11.5
   javascript-natural-sort: registry.npmmirror.com/javascript-natural-sort/0.7.1
   js-cookie: registry.npmmirror.com/js-cookie/3.0.5
@@ -3020,11 +3020,11 @@ packages:
       strip-final-newline: registry.npmmirror.com/strip-final-newline/2.0.0
     dev: true
 
-  registry.npmmirror.com/f-ui-one/1.0.4_vue@3.3.4:
-    resolution: {integrity: sha512-PJMzY/Vn2siaBNRRO/AqPOo+fJYvkGTKn/1ivx8Tc48+8VKaiwElMWr26SPR2j/ZdsGnVh40D/D/jxjR4TcSgg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/f-ui-one/-/f-ui-one-1.0.4.tgz}
-    id: registry.npmmirror.com/f-ui-one/1.0.4
+  registry.npmmirror.com/f-ui-one/1.0.5_vue@3.3.4:
+    resolution: {integrity: sha512-Wa3kvyd96A0Ss6fHLuRzQsMcSNMJREuVF4y4CjDSAvZ9S5hWS5oYC4uAW3utye/d25FKQTUWCOEQ0KNHfszF6g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/f-ui-one/-/f-ui-one-1.0.5.tgz}
+    id: registry.npmmirror.com/f-ui-one/1.0.5
     name: f-ui-one
-    version: 1.0.4
+    version: 1.0.5
     peerDependencies:
       vue: ^3.2.0
     dependencies:
