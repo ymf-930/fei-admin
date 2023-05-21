@@ -14,7 +14,14 @@
     // menu样式
 
     .fei-menu {
-      background: getMenuBgActive();
+      background: getMenuBg();
+
+      .is-opened {
+        .fei-menu {
+          background: getMenuBgActive();
+        }
+      }
+
       .fei-menu-item {
         border-radius 8px;
         margin 4px;
