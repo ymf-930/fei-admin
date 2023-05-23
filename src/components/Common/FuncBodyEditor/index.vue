@@ -8,7 +8,7 @@
       </f-tag>
     </div>
     <div>
-      <b-ace-editor lang="javascript" :height="height" :model-value="modelValue" @change="changeValue"></b-ace-editor>
+      <f-ace-editor lang="javascript" :height="height" :model-value="modelValue" @change="changeValue"></f-ace-editor>
     </div>
     <div class="func func-bottom">
       <f-tag type="primary" :tag-style="{ fontSize: '14px' }">}</f-tag>

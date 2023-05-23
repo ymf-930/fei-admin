@@ -234,7 +234,7 @@
     </ul>
     <!--log-->
     <div v-if="showLog">
-      <b-ace-editor :model-value="JSON.stringify(checkRules, null, 2)" readonly></b-ace-editor>
+      <f-ace-editor :model-value="JSON.stringify(checkRules, null, 2)" readonly></f-ace-editor>
     </div>
   </div>
 </template>

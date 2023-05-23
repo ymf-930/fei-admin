@@ -13,13 +13,13 @@
   <div v-else class="styles-editor-wrap">
     <div flex="main:justify">
       <div class="editor-box">
-        <b-ace-editor
+        <f-ace-editor
           v-model="styleValue"
           lang="stylus"
           :height="height"
           :font-size="14"
           @blur="emitValue"
-        ></b-ace-editor>
+        ></f-ace-editor>
       </div>
       <div class="action-box" v-if="showAction">
         <div class="mb-5" flex="main:justify cross:center">

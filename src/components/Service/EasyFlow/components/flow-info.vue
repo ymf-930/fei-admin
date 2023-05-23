@@ -1,6 +1,6 @@
 <template>
   <f-modal v-model="visible" title="流程数据信息" width="680px" destroy-on-close>
-    <b-ace-editor :model-value="JSON.stringify(data, null, 2)" height="500px" />
+    <f-ace-editor :model-value="JSON.stringify(data, null, 2)" height="500px" />
   </f-modal>
 </template>
 

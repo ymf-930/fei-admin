@@ -1,35 +1,4 @@
-<template>
-  <page-container desc="基础映射配置示例，可拖动排序，并封装了通用的hook钩子函数，可进行复用。">
-    <f-row :gutter="16">
-      <f-col span="12">
-        <f-collapse-wrap title="映射配置" shadow="none">
-          <div class="p16">
-            <key-value-mapping v-model="mapping"></key-value-mapping>
-            <f-divider align="left">实际存储值</f-divider>
-            <f-ace-editor :model-value="mappingJson" readonly></f-ace-editor>
-          </div>
-        </f-collapse-wrap>
-      </f-col>
-      <f-col span="12">
-        <f-collapse-wrap title="useSortable" shadow="none">
-          <f-ace-editor
-            :model-value="STR"
-            lang="typescript"
-            readonly
-            theme="sqlserver"
-            height="850px"
-            :snippets="false"
-          ></f-ace-editor>
-        </f-collapse-wrap>
-      </f-col>
-    </f-row>
-  </page-container>
-</template>
-
-<script>
-import { computed, ref } from 'vue'
-
-const STR = `import Sortable from 'sortablejs'
+import{a9 as m,k as _,j as g,D as n,a as v,w as o,o as x,c as e,d as h,q as I}from"./vendor-4c44c8da.js";import"./chunk-brace-bde7130a.js";const w=`import Sortable from 'sortablejs'
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 /**
@@ -88,22 +57,4 @@ export default function useSortable(list, endFun, option = {}) {
     listRef
   }
 }
-`
-
-export default {
-  name: 'FuncKeyValue',
-  setup() {
-    const mapping = ref([
-      { key: '1', value: 'a' },
-      { key: '2', value: 'b' },
-      { key: '3', value: 'c' },
-    ])
-    const mappingJson = computed(() => JSON.stringify(mapping.value, null, 2))
-    return {
-      mapping,
-      mappingJson,
-      STR,
-    }
-  },
-}
-</script>
+`,k={name:"FuncKeyValue",setup(){const a=_([{key:"1",value:"a"},{key:"2",value:"b"},{key:"3",value:"c"}]),t=g(()=>JSON.stringify(a.value,null,2));return{mapping:a,mappingJson:t,STR:w}}},y={class:"p16"};function b(a,t,S,l,V,B){const i=n("key-value-mapping"),c=n("f-divider"),s=n("f-ace-editor"),r=n("f-collapse-wrap"),d=n("f-col"),p=n("f-row"),u=n("page-container");return x(),v(u,{desc:"基础映射配置示例，可拖动排序，并封装了通用的hook钩子函数，可进行复用。"},{default:o(()=>[e(p,{gutter:16},{default:o(()=>[e(d,{span:"12"},{default:o(()=>[e(r,{title:"映射配置",shadow:"none"},{default:o(()=>[h("div",y,[e(i,{modelValue:l.mapping,"onUpdate:modelValue":t[0]||(t[0]=f=>l.mapping=f)},null,8,["modelValue"]),e(c,{align:"left"},{default:o(()=>[I("实际存储值")]),_:1}),e(s,{"model-value":l.mappingJson,readonly:""},null,8,["model-value"])])]),_:1})]),_:1}),e(d,{span:"12"},{default:o(()=>[e(r,{title:"useSortable",shadow:"none"},{default:o(()=>[e(s,{"model-value":l.STR,lang:"typescript",readonly:"",theme:"sqlserver",height:"850px",snippets:!1},null,8,["model-value"])]),_:1})]),_:1})]),_:1})]),_:1})}const F=m(k,[["render",b]]);export{F as default};

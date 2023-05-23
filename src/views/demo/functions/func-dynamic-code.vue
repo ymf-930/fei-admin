@@ -94,7 +94,7 @@
     <f-collapse-wrap title="用于校验函数" shadow="none" class="mb-16">
       <div flex>
         <div class="p10" style="width: 30%">
-          <b-ace-editor v-model="formObjStr"></b-ace-editor>
+          <f-ace-editor v-model="formObjStr"></f-ace-editor>
         </div>
         <div class="p10" style="width: 30%">
           <title-bar title="校验函数" tip-pos="left" class="mb-10"></title-bar>

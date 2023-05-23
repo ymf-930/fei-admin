@@ -26,35 +26,15 @@ export default {
       avatar,
       time: '2023-03-01',
     },
-/*    {
+    {
       id: '003',
-      title: 'Bin Ace Editor',
-      url: 'https://wangbin3162.gitee.io/bin-ace-editor/#/guide',
+      title: 'Fei Editor',
+      url: 'https://ymf930.gitee.io/fei-editor/#/guide',
       desc: '基于vue3的代码编辑器，支持多种格式',
       banner: banner3,
-      author: 'wangbin',
+      author: 'yangmengfei',
       avatar,
-      time: '2022-06-04',
-    },
-    {
-      id: '004',
-      title: 'Bin Charts',
-      url: 'https://wangbin3162.gitee.io/bin-charts/#/guide',
-      desc: '基于vue3、echart5 的图表封装组件',
-      banner: banner4,
-      author: 'wangbin',
-      avatar,
-      time: '2022-06-04',
-    },
-    {
-      id: '005',
-      title: 'Bin UI',
-      url: 'https://wangbin3162.gitee.io/bin-ui/#/guide',
-      desc: '基于vue2的基础组件库。',
-      banner: banner5,
-      author: 'wangbin',
-      avatar,
-      time: '2022-06-04',
-    },*/
+      time: '2023-05-23',
+    }
   ],
 }

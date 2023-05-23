@@ -9,7 +9,6 @@ specifiers:
   animejs: ^3.2.1
   axios: ^1.4.0
   bin-charts-next: ^1.1.0
-  bin-editor-next: ^1.1.0
   brace: ^0.11.1
   cross-env: ^7.0.3
   css-doodle: ^0.34.9
@@ -19,6 +18,7 @@ specifiers:
   eslint-plugin-import: ^2.27.5
   eslint-plugin-vue: ^9.13.0
   f-ui-one: ^1.0.5
+  fei-editor: ^0.0.1
   gsap: ^3.11.4
   javascript-natural-sort: ^0.7.1
   js-cookie: ^3.0.5
@@ -43,12 +43,12 @@ dependencies:
   animejs: registry.npmmirror.com/animejs/3.2.1
   axios: registry.npmmirror.com/axios/1.4.0
   bin-charts-next: registry.npmmirror.com/bin-charts-next/1.1.0_echarts@5.4.2+vue@3.3.4
-  bin-editor-next: registry.npmmirror.com/bin-editor-next/1.1.0
   brace: registry.npmmirror.com/brace/0.11.1
   css-doodle: registry.npmmirror.com/css-doodle/0.34.9
   dayjs: registry.npmmirror.com/dayjs/1.11.7
   echarts: registry.npmmirror.com/echarts/5.4.2
   f-ui-one: registry.npmmirror.com/f-ui-one/1.0.5_vue@3.3.4
+  fei-editor: registry.npmjs.org/fei-editor/0.0.1_vue@3.3.4
   gsap: registry.npmmirror.com/gsap/3.11.5
   javascript-natural-sort: registry.npmmirror.com/javascript-natural-sort/0.7.1
   js-cookie: registry.npmmirror.com/js-cookie/3.0.5
@@ -81,6 +81,18 @@ devDependencies:
   vite: registry.npmmirror.com/vite/4.3.8_44xl6m2ovsmmmezexbsj3nyg64
 
 packages:
+
+  registry.npmjs.org/fei-editor/0.0.1_vue@3.3.4:
+    resolution: {integrity: sha512-rsYB1Kx5zjqe0lcWT8SUZ7HJKmZBgL5XonOD9k20R1MXrc5RZ34I6nNTDI+VIAirqRi7VfZ2va5jQwdwZ9IhUQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmjs.org/fei-editor/-/fei-editor-0.0.1.tgz}
+    id: registry.npmjs.org/fei-editor/0.0.1
+    name: fei-editor
+    version: 0.0.1
+    peerDependencies:
+      vue: ^3.2.47
+    dependencies:
+      brace: registry.npmmirror.com/brace/0.11.1
+      vue: registry.npmmirror.com/vue/3.3.4
+    dev: false
 
   registry.npmmirror.com/@adobe/css-tools/4.2.0:
     resolution: {integrity: sha512-E09FiIft46CmH5Qnjb0wsW54/YQd69LsxeKUOWawmws1XWvyFGURnAChH0mlr7YPFR1ofwvUQfcL0J3lMxXqPA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@adobe/css-tools/-/css-tools-4.2.0.tgz}
@@ -2321,14 +2333,6 @@ packages:
       echarts: registry.npmmirror.com/echarts/5.4.2
       resize-observer-polyfill: registry.npmmirror.com/resize-observer-polyfill/1.5.1
       vue: registry.npmmirror.com/vue/3.3.4
-    dev: false
-
-  registry.npmmirror.com/bin-editor-next/1.1.0:
-    resolution: {integrity: sha512-5YX9319dS6k8XYA+sqTI959N1jAX8vqaZ5AW5tqXkgheuAQgOLber6yHOErfqpf3SRie3lhVvMHl12C/qGJw2g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/bin-editor-next/-/bin-editor-next-1.1.0.tgz}
-    name: bin-editor-next
-    version: 1.1.0
-    dependencies:
-      brace: registry.npmmirror.com/brace/0.11.1
     dev: false
 
   registry.npmmirror.com/boolbase/1.0.0:

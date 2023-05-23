@@ -4,7 +4,7 @@
       <div class="p10">
         <f-row :gutter="20">
           <f-col :span="14">
-            <b-ace-editor :model-value="code1" readonly lang="dot" height="200" />
+            <f-ace-editor :model-value="code1" readonly lang="dot" height="200" />
           </f-col>
           <f-col :span="10">
             <Graphviz id="code1" :code="code1" />
@@ -19,7 +19,7 @@
             <f-row :gutter="20">
               <f-col :span="12">
                 <f-tag>编辑代码</f-tag>
-                <b-ace-editor
+                <f-ace-editor
                   v-model="code2Text"
                   @blur="code2 = code2Text"
                   lang="dot"
@@ -28,7 +28,7 @@
               </f-col>
               <f-col :span="12">
                 <f-tag>示例代码</f-tag>
-                <b-ace-editor :model-value="demo" readonly lang="dot" height="200" />
+                <f-ace-editor :model-value="demo" readonly lang="dot" height="200" />
               </f-col>
             </f-row>
             <br />
@@ -48,11 +48,11 @@
             <f-row :gutter="20">
               <f-col :span="12">
                 <f-tag>json 对象</f-tag>
-                <b-ace-editor v-model="code3Text" @blur="formatData" lang="json" height="200" />
+                <f-ace-editor v-model="code3Text" @blur="formatData" lang="json" height="200" />
               </f-col>
               <f-col :span="12">
                 <f-tag>转换后字符串</f-tag>
-                <b-ace-editor :model-value="code3" readonly lang="dot" height="200" />
+                <f-ace-editor :model-value="code3" readonly lang="dot" height="200" />
               </f-col>
 
               <f-col :span="24">

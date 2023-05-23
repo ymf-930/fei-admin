@@ -61,7 +61,7 @@
           <f-button type="primary" icon="check" @click="saveLine">保存</f-button>
         </f-form-item>
       </f-form>
-      <b-ace-editor :model-value="JSON.stringify(state, null, 2)" height="200px" />
+      <f-ace-editor :model-value="JSON.stringify(state, null, 2)" height="200px" />
     </div>
   </div>
 </template>

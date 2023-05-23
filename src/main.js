@@ -5,7 +5,7 @@ import { setupStore } from '@/store'
 import { registerDirectives } from '@/directives'
 import { registerUI } from '@/plugins/f-ui-one'
 import { registerCharts } from '@/plugins/bin-charts-next'
-import { registerEditor } from '@/plugins/bin-editor-next'
+import { registerEditor } from '@/plugins/fei-editor'
 import { registerCommonComps } from '@/components/Common/index'
 import 'f-ui-one/lib/styles/normalize.css' // 初始化样式
 import 'f-ui-one/lib/styles/scrollbar.css' // 滚动条样式
