@@ -9,7 +9,7 @@
           Effects）中制作的动效内容导出成素材文件，并快速上线应用于几乎所有的主流平台。
         </p>
         <p>
-          2、
+          3、
           <a href="https://pag.art/" target="_blank">官网</a>
           <f-divider type="vertical"></f-divider>
           <a href="https://pag.art/docs/sdk.html#wef-%E7%AB%AF%E6%8E%A5%E5%85%A5" target="_blank">

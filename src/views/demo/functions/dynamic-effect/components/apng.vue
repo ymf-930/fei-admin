@@ -10,7 +10,7 @@
           2、好处就是使用十分方便，无需编码直接当成普通图片进行引用即可，比较推荐用于背景或者icon动效这种可以不受控制的内容
         </p>
         <p>
-          2、
+          3、
           <a href="https://www.zhangxinxu.com/sp/apng/" target="_blank">APNG合成工具</a>
           <f-divider type="vertical"></f-divider>
           <a href="https://tinypng.com/" target="_blank">png压缩工具</a>

@@ -9,7 +9,7 @@
         </p>
         <p>2、好处就是大小很小，且可以自由进行控制和使用，矢量</p>
         <p>
-          2、
+          3、
           <a href="http://airbnb.io/lottie/#/web" target="_blank">lottie docs</a>
           <f-divider type="vertical"></f-divider>
           <a href="https://github.com/airbnb/lottie-web" target="_blank">lottie-web</a>

@@ -9,7 +9,7 @@
         </p>
         <p>2、 雪碧图实现依赖于各种坐标，这种做法不够灵活</p>
         <p>
-          2、
+          3、
           <a href="https://www.toptal.com/developers/css/sprite-generator/" target="_blank">
             雪碧图制作
           </a>

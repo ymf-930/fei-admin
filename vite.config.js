@@ -1,5 +1,6 @@
 import { loadEnv, defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import copy from 'rollup-plugin-copy'
 import { resolve } from 'path'
 
 function pathResolve(dir) {
@@ -12,6 +13,7 @@ export default ({ mode }) => {
   const dirRoot = process.cwd()
 
   const env = loadEnv(mode, dirRoot)
+  const isProd = process.env.NODE_ENV === 'production'
 
   return defineConfig({
     base: process.env.NODE_ENV === 'production' ? env.VITE_PUBLIC_PATH : '',
@@ -22,6 +24,15 @@ export default ({ mode }) => {
             isCustomElement: tag => ['css-doodle'].includes(tag),
           },
         },
+      }),
+      copy({
+        targets: [
+          {
+            src: './node_modules/libpag/lib/libpag.wasm',
+            dest: isProd ? 'dist/' : 'public/',
+          },
+        ],
+        hook: isProd ? 'writeBundle' : 'buildStart',
       }),
     ],
     server: {
