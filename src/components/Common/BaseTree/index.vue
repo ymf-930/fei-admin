@@ -68,7 +68,7 @@ export default {
   props: {
     width: {
       type: String,
-      default: '240px',
+      default: '100%',
     },
     minHeight: {
       type: String,

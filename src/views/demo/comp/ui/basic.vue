@@ -87,7 +87,7 @@
         <f-button type="text" disabled>[disabled text]</f-button>
       </div>
     </f-collapse-wrap>
-    <template #footer>aaa</template>
+    <template #footer>Fei Admin</template>
   </page-container>
 </template>
 

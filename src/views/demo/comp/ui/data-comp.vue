@@ -1,6 +1,5 @@
 <template>
-  <page-container desc="数据类别的组件（table/page/tree/desc/progress/circle），可验证不同主题色的正确性。">
-    <theme-color-panel />
+  <page-container desc="数据类别的组件...">
     <f-collapse-wrap title="Table 表格" shadow="none" class="mb-20">
       <div class="p10">
         <f-table :columns="columns" :data="list" border></f-table>
@@ -20,11 +19,10 @@
 </template>
 
 <script>
-import ThemeColorPanel from '@/views/demo/comp/components/theme-color-panel.vue'
 
 export default {
   name: 'DataComp',
-  components: { ThemeColorPanel },
+  components: {},
   data() {
     return {
       columns: [

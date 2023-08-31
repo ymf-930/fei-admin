@@ -1,6 +1,5 @@
 <template>
-  <page-container desc="导航类别的组件，可验证不同主题色的正确性。">
-    <theme-color-panel />
+  <page-container desc="导航类别的组件...">
     <f-collapse-wrap title="Menu 导航菜单" shadow="none" class="mb-20">
       <div class="p10">
         <f-button-group v-model="isCollapse" style="margin-bottom: 20px">
@@ -137,11 +136,10 @@
 </template>
 
 <script>
-import ThemeColorPanel from '@/views/demo/comp/components/theme-color-panel.vue'
 
 export default {
   name: 'NavComp',
-  components: { ThemeColorPanel },
+  components: {},
   data() {
     return {
       isCollapse: false,

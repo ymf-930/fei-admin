@@ -41,4 +41,16 @@ export default [
     component: () => import('@/views/demo/functions/func-dynamic-code.vue'),
     meta: { title: '动态编码' },
   },
+  {
+    path: 'funcTiptap',
+    name: 'FuncTiptap',
+    component: () => import('@/views/demo/functions/func-tiptap.vue'),
+    meta: { title: '富文本编辑器' },
+  },
+  {
+    path: 'dynamicEffect',
+    name: 'DynamicEffect',
+    component: () => import('@/views/demo/functions/dynamic-effect/index.vue'),
+    meta: { title: '动效' },
+  },
 ]
