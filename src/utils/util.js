@@ -23,6 +23,8 @@ export const on = Utils.dom.on
 
 export const off = Utils.dom.off
 
+export const addClass = Utils.dom.addClass
+
 export const addResizeListener = Utils.resize.addResizeListener
 
 export const removeResizeListener = Utils.resize.removeResizeListener
