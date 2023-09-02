@@ -280,6 +280,10 @@ export default [
         name: 'GraphSchemaDemo',
         title: '画布框选',
       },
+      {
+        name: 'GraphChartsMap',
+        title: '关系图',
+      },
       // {
       //   name: 'FuncGraphviz',
       //   title: '绘图示例',

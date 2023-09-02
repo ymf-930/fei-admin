@@ -24,6 +24,7 @@
     "lint:fix": "eslint --fix --ext .js,.vue src && pretty-quick"
   },
   "dependencies": {
+    "@antv/g6": "^4.8.21",
     "@tiptap/extension-color": "^2.1.7",
     "@tiptap/extension-highlight": "^2.1.7",
     "@tiptap/extension-image": "^2.1.7",
@@ -47,6 +48,7 @@
     "f-ui-one": "^1.0.5",
     "fei-editor": "^0.0.1",
     "gsap": "^3.11.4",
+    "insert-css": "^2.0.0",
     "javascript-natural-sort": "^0.7.1",
     "js-cookie": "^3.0.5",
     "jsplumb": "^2.15.6",
