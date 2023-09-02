@@ -103,7 +103,6 @@ export default {
   components: { ThemePanel, HeaderTrigger },
   setup() {
     const { setting, settingVisible, toggleSetting, toggleTagsView } = useApp()
-    console.log(setting)
     return {
       setting,
       settingVisible,

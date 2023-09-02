@@ -48,15 +48,16 @@
                     <f-button type="primary" @click="updateBase">更新信息</f-button>
                   </f-form-item>
                 </f-col>
-                <f-col span="12">
+                <f-col span="6">
                   <div class="avatar-wrap">
-                    <div class="mb-8">头像</div>
-                    <div class="avatar-img mb-8">
-                      <img src='../../../../assets/images/avatar/avatar05.jpeg' alt="logo">
+                    <div flex='dir:top main:center cross:center'>
+                      <div class="avatar-img mb-8">
+                        <img src='../../../../assets/images/avatar/avatar05.jpeg' alt="logo">
+                      </div>
+                      <f-upload action="">
+                        <f-button icon="cloud-upload">更换头像</f-button>
+                      </f-upload>
                     </div>
-                    <f-upload action="">
-                      <f-button icon="cloud-upload">更换头像</f-button>
-                    </f-upload>
                   </div>
                 </f-col>
               </f-row>
@@ -228,7 +229,8 @@ export default {
   }
   .ctrl-pane {
     .tab-item {
-      margin: 0;
+      margin: 4px;
+      border-radius 8px;
       line-height: normal;
       padding: 7px 16px;
       clear: both;
@@ -263,7 +265,6 @@ export default {
     }
   }
   .avatar-wrap {
-    margin-left: 80px;
     .avatar-img {
       width: 90px;
       img {

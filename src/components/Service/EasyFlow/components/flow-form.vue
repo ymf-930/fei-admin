@@ -44,8 +44,8 @@
           </f-select>
         </f-form-item>
         <f-form-item>
-          <f-button icon="close" @click="cancel">取消</f-button>
-          <f-button type="primary" icon="check" @click="save">保存</f-button>
+          <f-button icon="close" size='small' @click="cancel">取消</f-button>
+          <f-button type="primary" icon="check" size='small' @click="save">保存</f-button>
         </f-form-item>
       </f-form>
 
