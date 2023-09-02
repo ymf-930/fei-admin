@@ -14,6 +14,7 @@ export default {
   sidebarWidth: 256, // 侧边栏宽度
   tagsView: true, // 多页签开启状态
   tagsType: 'clever', // card、clever、smooth
+  routerTransitionName: 'fade-in',
   fixedHeader: true,
   fixedAside: true,
   showWeather: true,

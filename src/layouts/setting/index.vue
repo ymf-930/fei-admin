@@ -45,6 +45,20 @@
           <f-option label="圆滑" value="smooth"></f-option>
         </f-select>
       </div>
+      <div class="setting-list-item" v-if='setting.routerTransitionName'>
+        <span>动画效果</span>
+        <f-select v-model="setting.routerTransitionName" size="small" style="width: 150px">
+          <f-option label="fade-in" value="fade-in"></f-option>
+          <f-option label="fade-transverse" value="fade-transverse"></f-option>
+          <f-option label="fade-scale" value="fade-scale"></f-option>
+          <f-option label="fade-scale-move" value="fade-scale-move"></f-option>
+          <f-option label="fade-down" value="fade-down"></f-option>
+          <f-option label="zoom-in" value="zoom-in"></f-option>
+          <f-option label="zoom-in-center" value="zoom-in-center"></f-option>
+          <f-option label="move-left" value="move-left"></f-option>
+          <f-option label="move-right" value="move-right"></f-option>
+        </f-select>
+      </div>
       <h3 class="setting-title"><span>顶栏设置</span></h3>
       <div class="setting-list-item">
         <span>菜单折叠</span>
@@ -89,6 +103,7 @@ export default {
   components: { ThemePanel, HeaderTrigger },
   setup() {
     const { setting, settingVisible, toggleSetting, toggleTagsView } = useApp()
+    console.log(setting)
     return {
       setting,
       settingVisible,

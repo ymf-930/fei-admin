@@ -1,50 +1,5 @@
 <template>
-  <page-container inner-scroll>
-    <template #header>
-      <f-form label-width="95px" label-position="left">
-        <f-form-item label="用户名称">
-          <f-input v-model="query.name" clearable></f-input>
-        </f-form-item>
-        <f-form-item label="用户角色">
-          <f-select v-model="query.roles" clearable>
-            <f-option v-for="(val, key) in roleMap" :key="key" :label="val" :value="key"></f-option>
-          </f-select>
-        </f-form-item>
-        <template v-if="expand">
-          <f-form-item label="状态">
-            <f-select v-model="query.status" clearable>
-              <f-option label="启用" value="1"></f-option>
-              <f-option label="禁用" value="0"></f-option>
-            </f-select>
-          </f-form-item>
-          <f-form-item label="邮箱">
-            <f-input v-model="query.email" clearable></f-input>
-          </f-form-item>
-          <f-form-item label="日期">
-            <f-date-picker v-model="query.date" clearable></f-date-picker>
-          </f-form-item>
-        </template>
-        <f-form-item>
-          <f-button>重置</f-button>
-          <f-button type="primary" :loading="loading" @click="getListData">查询</f-button>
-          <f-button type="text" :icon="expand ? 'up' : 'down'" @click="expand = !expand">
-            {{ expand ? '收起' : '展开' }}
-          </f-button>
-        </f-form-item>
-      </f-form>
-    </template>
-    <template #footer>
-      <f-page
-        :total="total"
-        :current="query.page"
-        :page-size="query.size"
-        show-sizer
-        show-total
-        @change="pageChange"
-        @size-change="pageSizeChange"
-      ></f-page>
-    </template>
-
+  <page-container inner-scroll desc="用户管理列表">
     <page-cube-wrapper>
       <template #left>
         <base-tree
@@ -57,6 +12,39 @@
         ></base-tree>
       </template>
       <base-table class="pl-16">
+        <template #filter>
+          <f-form label-width="95px" label-position="left">
+            <f-form-item label="用户名称">
+              <f-input v-model="query.name" clearable></f-input>
+            </f-form-item>
+            <f-form-item label="用户角色">
+              <f-select v-model="query.roles" clearable>
+                <f-option v-for="(val, key) in roleMap" :key="key" :label="val" :value="key"></f-option>
+              </f-select>
+            </f-form-item>
+            <template v-if="expand">
+              <f-form-item label="状态">
+                <f-select v-model="query.status" clearable>
+                  <f-option label="启用" value="1"></f-option>
+                  <f-option label="禁用" value="0"></f-option>
+                </f-select>
+              </f-form-item>
+              <f-form-item label="邮箱">
+                <f-input v-model="query.email" clearable></f-input>
+              </f-form-item>
+              <f-form-item label="日期">
+                <f-date-picker v-model="query.date" clearable></f-date-picker>
+              </f-form-item>
+            </template>
+            <f-form-item>
+              <f-button>重置</f-button>
+              <f-button type="primary" :loading="loading" @click="getListData">查询</f-button>
+              <f-button type="text" :icon="expand ? 'up' : 'down'" @click="expand = !expand">
+                {{ expand ? '收起' : '展开' }}
+              </f-button>
+            </f-form-item>
+          </f-form>
+        </template>
         <template #action>
           <f-button type="primary" icon="plus-circle" @click="handleCreate">新增</f-button>
         </template>
@@ -74,7 +62,7 @@
             </template>
           </f-dropdown>
         </template>
-        <f-table :columns="columns" :data="copyList" :loading="loading" border>
+        <f-table :columns="columns" :data="copyList" :loading="loading" size='small' border>
           <template #roles="{ row }">
             {{ roleMap[row.roles] }}
           </template>
@@ -98,6 +86,17 @@
             ></action-button>
           </template>
         </f-table>
+        <template #page>
+          <f-page
+            :total="total"
+            :current="query.page"
+            :page-size="query.size"
+            show-sizer
+            show-total
+            @change="pageChange"
+            @size-change="pageSizeChange"
+          ></f-page>
+        </template>
       </base-table>
     </page-cube-wrapper>
 

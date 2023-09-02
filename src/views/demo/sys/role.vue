@@ -1,39 +1,27 @@
 <template>
   <div>
-    <page-container inner-scroll v-show="!modalVisible">
-      <template #header>
-        <f-form label-width="95px">
-          <f-form-item label="角色名称">
-            <f-input v-model="query.roleName" clearable></f-input>
-          </f-form-item>
-          <f-form-item label="角色状态">
-            <f-select v-model="query.status" clearable>
-              <f-option v-for="(val, key) in statusMap" :key="key" :label="val" :value="key"></f-option>
-            </f-select>
-          </f-form-item>
-          <f-form-item>
-            <f-button>重置</f-button>
-            <f-button type="primary" :loading="loading" @click="getListData">查询</f-button>
-          </f-form-item>
-        </f-form>
-      </template>
-      <template #footer>
-        <f-page
-          :total="total"
-          :current="query.page"
-          :page-size="query.size"
-          show-sizer
-          show-total
-          @change="pageChange"
-          @size-change="pageSizeChange"
-        ></f-page>
-      </template>
-
+    <page-wrapper v-show="!modalVisible">
       <base-table>
+        <template #filter>
+          <f-form label-width="95px">
+            <f-form-item label="角色名称">
+              <f-input v-model="query.roleName" clearable></f-input>
+            </f-form-item>
+            <f-form-item label="角色状态">
+              <f-select v-model="query.status" clearable>
+                <f-option v-for="(val, key) in statusMap" :key="key" :label="val" :value="key"></f-option>
+              </f-select>
+            </f-form-item>
+            <f-form-item label-width="16px">
+              <f-button>重置</f-button>
+              <f-button type="primary" :loading="loading" @click="getListData">查询</f-button>
+            </f-form-item>
+          </f-form>
+        </template>
         <template #action>
           <f-button type="primary" icon="plus-circle" @click="handleCreate">新增</f-button>
         </template>
-        <f-table :columns="columns" :data="copyList" :loading="loading" border>
+        <f-table :columns="columns" :data="copyList" :loading="loading" size='small' border>
           <template #status="{ row }">
             {{ statusMap[row.status] }}
           </template>
@@ -57,19 +45,28 @@
             ></action-button>
           </template>
         </f-table>
+        <template #page>
+          <f-page
+            :total="total"
+            :current="query.page"
+            :page-size="query.size"
+            show-sizer
+            show-total
+            @change="pageChange"
+            @size-change="pageSizeChange"
+          ></f-page>
+        </template>
       </base-table>
-    </page-container>
+    </page-wrapper>
 
-    <page-container
-      inner-scroll
+    <page-wrapper
       v-if="modalVisible"
       :title="`${pageStatus.isCreate ? '新增' : '修改'}角色`"
-      show-back
       @back="handleCancel"
       show-close
       @close="handleCancel"
     >
-      <template #footer>
+      <template #rightFooter>
         <div flex="main:right">
           <f-button @click="handleCancel">取 消</f-button>
           <f-button type="primary" :loading="editLoading" @click="handleSubmit">确 定</f-button>
@@ -94,7 +91,7 @@
           </div>
         </f-collapse-wrap>
       </f-form>
-    </page-container>
+    </page-wrapper>
   </div>
 </template>
 

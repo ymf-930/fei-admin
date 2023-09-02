@@ -59,7 +59,7 @@ export default {
     background: #fff;
     border-radius: 2px;
     padding: 10px;
-    text-align: left;
+    text-align: right;
   }
 }
 </style>
