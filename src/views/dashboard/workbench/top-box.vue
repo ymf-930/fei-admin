@@ -34,7 +34,7 @@
             <iconfont icon="block" color="primary" bg round></iconfont>
             <span class="ml-5">项目数</span>
           </div>
-          <p>12</p>
+          <p>5</p>
         </div>
         <div class="item">
           <div class="top">
@@ -48,7 +48,7 @@
             <iconfont icon="bell" color="success" bg round></iconfont>
             <span class="ml-5">通知数量</span>
           </div>
-          <p>23</p>
+          <p>2</p>
         </div>
       </div>
     </div>

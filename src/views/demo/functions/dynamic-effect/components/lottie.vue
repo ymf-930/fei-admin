@@ -49,7 +49,7 @@ import lottie from 'lottie-web'
 const imgRef1 = ref(null)
 const imgRef2 = ref(null)
 
-const localPath = getImageUrl('animation.json')
+const localPath = getImageUrl('读书.json')
 const webPath = 'https://lottie.host/25a9ea9f-2a78-446c-a9e0-9b11dcb20aee/mdJJIHHT6p.json'
 
 async function init() {
@@ -85,7 +85,7 @@ import lottie from 'lottie-web'
 const imgRef1 = ref(null)
 const imgRef2 = ref(null)
 
-const localPath = getImageUrl('animation.json')
+const localPath = getImageUrl('读书.json')
 const webPath = 'https://lottie.host/25a9ea9f-2a78-446c-a9e0-9b11dcb20aee/mdJJIHHT6p.json'
 
 async function init() {
