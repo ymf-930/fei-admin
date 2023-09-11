@@ -31,7 +31,7 @@ specifiers:
   eslint: ^8.40.0
   eslint-plugin-import: ^2.27.5
   eslint-plugin-vue: ^9.13.0
-  f-ui-one: ^1.0.5
+  f-ui-one: ^1.0.8
   fei-editor: ^0.0.1
   gsap: ^3.11.4
   insert-css: ^2.0.0
@@ -81,7 +81,7 @@ dependencies:
   css-doodle: registry.npmmirror.com/css-doodle/0.34.9
   dayjs: registry.npmmirror.com/dayjs/1.11.7
   echarts: registry.npmmirror.com/echarts/5.4.2
-  f-ui-one: registry.npmmirror.com/f-ui-one/1.0.5_vue@3.3.4
+  f-ui-one: registry.npmmirror.com/f-ui-one/1.0.8_vue@3.3.4
   fei-editor: registry.npmjs.org/fei-editor/0.0.1_vue@3.3.4
   gsap: registry.npmmirror.com/gsap/3.11.5
   insert-css: registry.npmmirror.com/insert-css/2.0.0
@@ -4961,11 +4961,11 @@ packages:
       - supports-color
     dev: false
 
-  registry.npmmirror.com/f-ui-one/1.0.5_vue@3.3.4:
-    resolution: {integrity: sha512-Wa3kvyd96A0Ss6fHLuRzQsMcSNMJREuVF4y4CjDSAvZ9S5hWS5oYC4uAW3utye/d25FKQTUWCOEQ0KNHfszF6g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/f-ui-one/-/f-ui-one-1.0.5.tgz}
-    id: registry.npmmirror.com/f-ui-one/1.0.5
+  registry.npmmirror.com/f-ui-one/1.0.8_vue@3.3.4:
+    resolution: {integrity: sha512-J5cF2oaI39jBEJ/NbKq6QavFI+BUfcr4PxizjMIpHLg5+EJ5h4ImWH/V0tIL+W5K0pn58MPM8iA/XDjMGReTYQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/f-ui-one/-/f-ui-one-1.0.8.tgz}
+    id: registry.npmmirror.com/f-ui-one/1.0.8
     name: f-ui-one
-    version: 1.0.5
+    version: 1.0.8
     peerDependencies:
       vue: ^3.2.0
     dependencies:
