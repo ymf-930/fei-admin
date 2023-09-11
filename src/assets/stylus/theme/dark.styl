@@ -18,7 +18,7 @@
 
       .is-opened {
         .fei-menu {
-          background: getMenuBgActive();
+          //background: getMenuBgActive();
         }
       }
 
@@ -39,6 +39,8 @@
 
         &:hover {
           color: $color-text-white;
+          background-color: getMenuBgHover();
+          //background-color: rgba(255, 255, 255, 0.05)
         }
 
         &.is-active {
@@ -58,12 +60,12 @@
 
       .fei-menu-item-group__title {
         color: $color-text-white-disable;
-        background: getMenuBgActive();
+        //background: getMenuBgActive();
       }
 
       .fei-submenu .fei-menu--inline {
         .fei-menu-item, .fei-submenu__title {
-          background: getMenuBgActive();
+          //background: getMenuBgActive();
         }
 
         .fei-menu-item {

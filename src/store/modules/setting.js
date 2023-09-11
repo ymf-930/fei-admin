@@ -8,7 +8,7 @@ const useSetting = defineStore('setting', {
   }),
   getters: {
     asideStyle() {
-      const width = this.setting.sidebar ? this.setting.sidebarWidth : 64
+      const width = this.setting.sidebar ? this.setting.sidebarWidth : 52
       return {
         flex: `0 0 ${width}px`,
         maxWidth: `${width}px`,
