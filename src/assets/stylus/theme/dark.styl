@@ -2,11 +2,14 @@
 [data-theme=dark] {
   // logo样式
 
-  .layout-aside .logo {
-    border-bottom: none;
+  .layout-aside {
+    background-color: getMenuBg();
+    .logo {
+      border-bottom: none;
 
-    h1 {
-      color: #ffffff;
+      h1 {
+        color: getColor();
+      }
     }
   }
 
@@ -24,7 +27,6 @@
 
       .fei-menu-item {
         border-radius 8px;
-        margin 4px;
         color: $color-text-white-light;
         background: getMenuBg();
 
