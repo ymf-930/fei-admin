@@ -1,1 +1,0 @@
-import{a9 as n,aa as c,a0 as p,g as u,o as i}from"./vendor-80b6893c.js";import"./chunk-brace-7735c7cc.js";const _={name:"Redirect",setup(){const{currentRoute:t,replace:r}=c(),{params:a,query:o}=p(t),{path:e}=a,s=Array.isArray(e)?e.join("/"):e;return r({path:"/"+s,query:o}),{}}};function d(t,r,a,o,e,s){return i(),u("div")}const l=n(_,[["render",d]]);export{l as default};
