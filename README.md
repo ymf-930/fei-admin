@@ -25,8 +25,6 @@ fei-admin基于 Vue3，配合使用最新支持vue3的组件库 [f-ui-one](https
 
 ![预览6](/public/preview/6.png)
 
-![预览7](/public/preview/7.png)
-
 ## 目录结构
 
 整个项目的目录结构如下，具体包含内容后续会进行详细介绍和解释
@@ -62,7 +60,7 @@ fei-admin基于 Vue3，配合使用最新支持vue3的组件库 [f-ui-one](https
 
 ```bash
 # 克隆项目
-git clone https://gitee.com/ymf930/f-ui-one.git
+git clone https://gitee.com/ymf930/fei-admin.git
 
 # 安装依赖
 npm install or yarn install
