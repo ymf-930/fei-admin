@@ -406,7 +406,7 @@ export default defineComponent({
 
 <script setup>
 import { ref, watch, computed } from 'vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 import ActionButton from '@/components/Common/ActionButton/index.vue'
 import {
   CRON_TAB,

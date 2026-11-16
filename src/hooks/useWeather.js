@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { ref } from 'vue'
-import { Utils } from 'f-ui-one'
+import { Utils } from 'fei-ui-design'
 
 import img_xue from '@/assets/images/weather/xue.png'
 import img_xue1 from '@/assets/images/weather/xue-1.png'

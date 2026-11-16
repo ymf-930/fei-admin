@@ -52,7 +52,7 @@
 
 <script>
 import useApp from '@/hooks/store/useApp'
-import { Utils } from 'f-ui-one'
+import { Utils } from 'fei-ui-design'
 
 const { isEqual } = Utils.color
 

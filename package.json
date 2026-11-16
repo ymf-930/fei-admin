@@ -4,7 +4,7 @@
   "description": "后台管理系统 vue3版本",
   "homepage": "https://github.com/ymf-930/fei-admin",
   "keywords": [
-    "f-ui-one",
+    "fei-ui-design",
     "fei-admin",
     "vue3",
     "vite"
@@ -33,7 +33,7 @@
     "dayjs": "^1.11.7",
     "echarts": "^5.4.2",
     "gsap": "^3.11.4",
-    "f-ui-one": "^1.0.5",
+    "fei-ui-design": "^0.0.3",
     "javascript-natural-sort": "^0.7.1",
     "js-cookie": "^3.0.5",
     "jsplumb": "^2.15.6",

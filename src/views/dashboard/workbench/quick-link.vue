@@ -73,7 +73,7 @@
 <script>
 import { ref, reactive } from 'vue'
 import useApp from '@/hooks/store/useApp'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 import { useStore } from '@/store'
 
 export default {

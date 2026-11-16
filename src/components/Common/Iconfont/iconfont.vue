@@ -7,7 +7,7 @@
 <script>
 import useApp from '@/hooks/store/useApp'
 import { computed } from 'vue'
-import { Utils } from 'f-ui-one'
+import { Utils } from 'fei-ui-design'
 
 const { mixWhite } = Utils.color
 

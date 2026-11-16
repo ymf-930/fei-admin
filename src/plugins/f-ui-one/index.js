@@ -1,4 +1,4 @@
-import FUI, { Utils } from 'f-ui-one'
+import FUI, { Utils } from 'fei-ui-design'
 import config from '../../../package.json'
 
 export function registerUI(app) {

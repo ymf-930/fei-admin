@@ -96,7 +96,7 @@
 import useTable from '@/hooks/service/useTable'
 import { getUserList } from '@/api/modules/user.api'
 import { reactive, ref, watch } from 'vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 
 export default {
   name: 'UserList',

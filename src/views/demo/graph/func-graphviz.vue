@@ -81,7 +81,7 @@
 import { onMounted, ref } from 'vue'
 import * as d3 from 'd3'
 import 'd3-graphviz'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 
 const code1 = ref('digraph G {Hello -> World}')
 const code2 = ref('digraph G {a -> b}')

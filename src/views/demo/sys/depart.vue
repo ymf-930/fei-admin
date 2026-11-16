@@ -82,7 +82,7 @@
 import { getDepartTree } from '@/api/modules/depart.api'
 import { ref } from 'vue'
 import { deepCopy } from '@/utils/util'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 import useForm from '@/hooks/service/useForm'
 
 export default {

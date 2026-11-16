@@ -45,7 +45,7 @@ export default ({ mode }) => {
         'pinia',
         'dayjs',
         'echarts',
-        'f-ui-one',
+        'fei-ui-design',
         'js-cookie',
         'mockjs',
         'brace',
@@ -64,7 +64,7 @@ export default ({ mode }) => {
             if (id.includes('/node_modules/')) {
               // 设置需要独立打包的npm包
               const expansions = [
-                'f-ui-one',
+                'fei-ui-design',
                 'brace',
                 'mockjs',
                 'lodash-es',
