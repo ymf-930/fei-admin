@@ -4,7 +4,7 @@
       <p>
         <a href="https://github.com/ymf-930/fei-admin" target="_blank">fei-admin</a>
         &nbsp; 是一个基于Vue3.0、
-        <a href="https://github.com/ymf-930/f-ui-one" target="_blank">f-ui-one</a>
+        <a href="https://github.com/ymf-930/fei-ui-design" target="_blank">fei-ui-design</a>
         &nbsp; 的后台解决方案，目标是提供简单快速的开箱解决方案，提供部分示例和更多实用工具以便快速进行后台开发。
       </p>
     </template>
@@ -21,13 +21,13 @@
             <f-divider type="vertical"></f-divider>
             <a href="https://ymf930.gitee.io/fei-admin" target="_blank">Preview</a>
           </f-desc-item>
-          <f-desc-item label="f-ui-one 地址">
-            <a href="https://github.com/ymf-930/f-ui-one" target="_blank">Github</a>
+          <f-desc-item label="fei-ui-design 地址">
+            <a href="https://github.com/ymf-930/fei-ui-design" target="_blank">Github</a>
             <f-divider type="vertical"></f-divider>
-            <a href="https://gitee.com/ymf930/f-ui-one" target="_blank">Gitee</a>
+            <a href="https://gitee.com/ymf930/fei-ui-design" target="_blank">Gitee</a>
           </f-desc-item>
-          <f-desc-item label="f-ui-one 文档">
-            <a href="https://ymf930.gitee.io/f-ui-one" target="_blank">文档</a>
+          <f-desc-item label="fei-ui-design 文档">
+            <a href="https://ymf-930.gitee.io/fei-ui-design" target="_blank">文档</a>
           </f-desc-item>
         </f-desc>
       </div>

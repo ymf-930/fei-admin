@@ -1,5 +1,5 @@
 <template>
-  <page-container desc="数字动画组件，现已收录至f-ui-one，此为示例">
+  <page-container desc="数字动画组件，现已收录至fei-ui-design，此为示例">
     <f-collapse-wrap title="数字动画" shadow="none">
       <div class="count-wrap p10">
         <h1 style="font-size: 60px">

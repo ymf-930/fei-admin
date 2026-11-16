@@ -237,13 +237,13 @@ export default [
         name: 'CompDoc',
         title: '组件文档',
         icon: 'link',
-        externalLink: 'https://ymf930.gitee.io/f-ui-one/',
+        externalLink: 'https://ymf-930.gitee.io/fei-ui-design/',
       },
       {
         name: 'Github',
         title: '仓库地址',
         icon: 'link',
-        externalLink: 'https://github.com/ymf-930/f-ui-one',
+        externalLink: 'https://github.com/ymf-930/fei-ui-design',
       },
       {
         name: 'DataV',

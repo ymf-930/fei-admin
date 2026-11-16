@@ -43,7 +43,7 @@ export default {
       { value: 'vuex', link: 'https://github.com/vuejs/vuex' },
       { value: 'vue-router', link: 'https://github.com/vuejs/vue-router' },
       { value: 'babel', link: 'https://github.com/babel/babel' },
-      { value: 'f-ui-one', link: 'https://github.com/ymf-930/f-ui-one' },
+      { value: 'fei-ui-design', link: 'https://github.com/ymf-930/fei-ui-design' },
     ]
 
     const handleSelect = item => {
