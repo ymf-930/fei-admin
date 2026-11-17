@@ -9,7 +9,7 @@ export default {
   rows: [
     {
       id: '001',
-      title: 'FEI UI ONE',
+      title: 'FEI UI DESIGN',
       desc: '基于vue3的ui组件库，内涵60+组件',
       author: 'yangmengfei',
       avatar: avatar1,
@@ -20,7 +20,7 @@ export default {
     {
       id: '002',
       title: 'Fei Admin',
-      desc: '基于vue3,f-ui-one的企业级后台管理框架',
+      desc: '基于vue3,fei-ui-design的企业级后台管理框架',
       author: 'yangmengfei',
       avatar: avatar2,
       time: '2022-06-04 12:00:00',

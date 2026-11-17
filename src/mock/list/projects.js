@@ -8,8 +8,8 @@ export default {
   rows: [
     {
       id: '001',
-      title: 'FEI UI ONE',
-      url: 'https://ymf930.gitee.io/f-ui-one/#/guide',
+      title: 'FEI UI DESIGN',
+      url: 'https://ymf-930.gitee.io/fei-ui-design/#/guide',
       desc: '基于vue3的ui组件库，内涵60+组件',
       banner: banner1,
       author: 'yangmengfei',
@@ -20,7 +20,7 @@ export default {
       id: '002',
       title: 'Fei Admin',
       url: 'https://ymf930.gitee.io/fei-admin/',
-      desc: '基于vue3,f-ui-one的企业级后台管理框架',
+      desc: '基于vue3,fei-ui-design的企业级后台管理框架',
       banner: banner2,
       author: 'yangmengfei',
       avatar,

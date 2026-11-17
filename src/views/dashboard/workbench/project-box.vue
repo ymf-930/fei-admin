@@ -10,10 +10,10 @@
       </div>
     </template>
     <div class="items-wrap">
-      <a class="hover-item" href="https://ymf930.gitee.io/f-ui-one/" target="_blank">
+      <a class="hover-item" href="https://ymf-930.gitee.io/fei-ui-design/" target="_blank">
         <div class="title">
           <iconfont icon="appstore" color="#25bbe3" :size="36" bg round />
-          <span class="ml-15">FEI UI ONE</span>
+          <span class="ml-15">FEI UI DESIGN</span>
         </div>
         <div class="desc">一个基于 vue3 的组件库</div>
         <div class="desc" flex="main:justify">
@@ -81,7 +81,7 @@
           <iconfont icon="sketch" color="#8e58da" :size="36" bg round />
           <span class="ml-15">Fei Admin</span>
         </div>
-        <div class="desc">基于 f-ui-one 的集成管理平台</div>
+        <div class="desc">基于 fei-ui-design 的集成管理平台</div>
         <div class="desc" flex="main:justify">
           <span>admin</span>
           <span>1.0.0</span>

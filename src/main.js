@@ -3,13 +3,13 @@ import App from './App.vue'
 import router, { setupRouter } from '@/router'
 import { setupStore } from '@/store'
 import { registerDirectives } from '@/directives'
-import { registerUI } from '@/plugins/f-ui-one'
+import { registerUI } from '@/plugins/fei-ui-design'
 import { registerCharts } from '@/plugins/bin-charts-next'
 import { registerEditor } from '@/plugins/fei-editor'
 import { registerCommonComps } from '@/components/Common/index'
-import 'f-ui-one/lib/styles/normalize.css' // 初始化样式
-import 'f-ui-one/lib/styles/scrollbar.css' // 滚动条样式
-import 'f-ui-one/lib/styles/index.css' // 组件库样式
+import 'fei-ui-design/styles/common/reset.css' // 初始化样式
+import 'fei-ui-design/styles/common/scrollbar.css' // 滚动条样式
+import 'fei-ui-design/styles/index.css' // 组件库样式
 import '@/assets/stylus/index.styl' // 项目样式
 
 /**

@@ -138,7 +138,7 @@ import useTable from '@/hooks/service/useTable'
 import { getUserList } from '@/api/modules/user.api'
 import { getDepartTree } from '@/api/modules/depart.api'
 import useForm from '@/hooks/service/useForm'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 import useTree from '@/hooks/service/useTree'
 
 export default {

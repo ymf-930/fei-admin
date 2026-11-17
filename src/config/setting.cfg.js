@@ -1,7 +1,7 @@
 /**
  * 项目默认配置项
  */
-import { Utils } from 'f-ui-one'
+import { Utils } from 'fei-ui-design'
 
 const { getPalette, mixBlack, alpha } = Utils.color
 

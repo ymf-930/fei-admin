@@ -1,4 +1,4 @@
-import FeiEditor from 'fei-editor'
+import { Editor as FeiEditor } from 'fei-editor'
 import 'brace/ext/emmet'
 import 'brace/ext/language_tools'
 import 'brace/mode/json'

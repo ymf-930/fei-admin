@@ -1,6 +1,6 @@
 import { computed, inject, reactive, ref, toRefs } from 'vue'
 import { deepCopy, isEmpty } from '@/utils/util'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 
 export default function useItemMap(props, emit) {
   // ***** 源表和目标表列表 ***** //

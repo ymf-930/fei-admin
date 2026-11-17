@@ -1,5 +1,5 @@
 import { computed, ref, watch } from 'vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 
 /**
  * 表单操作、状态内容定义

@@ -6,7 +6,7 @@ import img5 from '@/assets/images/db/001.png'
 import img6 from '@/assets/images/db/002.png'
 import img7 from '@/assets/images/db/003.png'
 import img8 from '@/assets/images/db/004.png'
-import { Utils } from 'f-ui-one'
+import { Utils } from 'fei-ui-design'
 
 const { alpha } = Utils.color
 

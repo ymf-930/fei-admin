@@ -75,7 +75,7 @@
 import useTable from '@/hooks/service/useTable'
 import { getBaseList } from '@/api/modules/list.api'
 import { reactive, toRefs } from 'vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 
 export default {
   name: 'BaseList',

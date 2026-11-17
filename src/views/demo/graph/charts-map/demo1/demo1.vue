@@ -18,7 +18,7 @@
 import { onMounted, onBeforeUnmount } from 'vue'
 import { mockData2 } from '../data'
 import { getMockData, ICON_MAP, LIBRAY_MAP, COLOR_MAP } from './data'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 import G6Creator from './G6Creator'
 
 const props = defineProps({

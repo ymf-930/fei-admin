@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import { LoadingBar, Notice } from 'f-ui-one'
+import { LoadingBar, Notice } from 'fei-ui-design'
 import { scrollBehavior } from './scrollBehavior'
 import { constantRoutes } from './routes'
 import { useStore } from '@/store'

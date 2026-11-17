@@ -1,4 +1,4 @@
-import { Utils, Notice } from 'f-ui-one'
+import { Utils, Notice } from 'fei-ui-design'
 
 export const generateId = Utils.helper.generateId
 

@@ -138,7 +138,7 @@
 
 <script>
 import { ref } from 'vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 
 export default {
   name: 'FuncDynamicCode',

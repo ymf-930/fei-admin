@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 const useLinks = defineStore('links', {
   state: () => ({
     links: [
-      { link: 'https://ymf930.gitee.io/f-ui-one', text: 'f-ui-one', newTab: true },
+      { link: 'https://ymf-930.gitee.io/fei-ui-design', text: 'fei-ui-design', newTab: true },
       { link: 'https://ymf930.gitee.io/my-introduce-web', text: 'my-introduce-web', newTab: true },
       { link: 'https://ymf930.gitee.io/fei-editor', text: 'fei-editor', newTab: true },
       // { link: 'https://wangbin3162.gitee.io/bin-charts-next', text: 'bin-charts-next', newTab: true },

@@ -18,7 +18,7 @@
 
 <script setup>
 import { onMounted, ref, onBeforeUnmount } from 'vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 import { fomatTreeData, getMockData } from './data'
 import G6Creator from './G6Creator'
 

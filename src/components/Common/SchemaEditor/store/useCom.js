@@ -1,6 +1,6 @@
 import { generateId } from '@/utils/util'
 import { ref } from 'vue'
-import { MessageBox } from 'f-ui-one'
+import { MessageBox } from 'fei-ui-design'
 import { setActiveTab } from './useSchema'
 import { emitter, SCHEMA_AUTO_SAVE } from './eventBus'
 

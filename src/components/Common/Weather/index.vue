@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import { Utils } from 'f-ui-one'
+import { Utils } from 'fei-ui-design'
 import axios from 'axios'
 import { computed, ref } from 'vue'
 import useApp from '@/hooks/store/useApp'

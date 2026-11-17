@@ -91,7 +91,7 @@ import Plumb from './lib/Plumb'
 import { ref, onMounted, nextTick, reactive, watch } from 'vue'
 import getMockData from './mock-data'
 import { deepCopy, getUuid } from '@/utils/util'
-import { Message, MessageBox } from 'f-ui-one'
+import { Message, MessageBox } from 'fei-ui-design'
 import './index.styl'
 
 const props = defineProps({

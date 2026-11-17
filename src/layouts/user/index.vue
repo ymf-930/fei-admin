@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { MessageBox } from 'f-ui-one'
+import { MessageBox } from 'fei-ui-design'
 import { useStore } from '@/store'
 import { useRouter, useRoute } from 'vue-router'
 

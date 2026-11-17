@@ -51,7 +51,7 @@ import { computed, provide, ref } from 'vue'
 import BasicTasks from '@/views/demo/pages/form/components/basicTasks.vue'
 import { SCHEDULECONF, SCHEDULECONFSTR } from '@/api/const.api'
 import GatherItemMap from '@/views/demo/pages/form/components/gather-item-map.vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 
 const formObj = ref({}) // 修改form对象
 const currentStep = ref(0) // 步骤进度

@@ -1,0 +1,1 @@
+import{aw as o,c as n,A as s,p as a,V as r,o as c,D as _}from"./vendor-DiEn5u74.js";import"./chunk-brace-DBBFQEfU.js";const l={},d={class:"p16"};function f(p,e){const t=r("f-alert");return c(),n("div",d,[s(t,null,{default:a(()=>[...e[0]||(e[0]=[_("menu 2",-1)])]),_:1})])}const u=o(l,[["render",f]]);export{u as default};

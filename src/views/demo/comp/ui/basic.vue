@@ -1,7 +1,7 @@
 <template>
   <page-container
     inner-scroll
-    desc="基础组件依赖于f-ui-one，主要用于验证不同组件的主色颜色主题。主题样式默认只覆盖default和primary主色"
+    desc="基础组件依赖于fei-ui-design，主要用于验证不同组件的主色颜色主题。主题样式默认只覆盖default和primary主色"
   >
     <theme-color-panel />
     <f-collapse-wrap title="default" shadow="none" class="mf-20">

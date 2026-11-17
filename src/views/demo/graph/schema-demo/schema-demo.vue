@@ -97,7 +97,7 @@
 
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
-import { Message } from 'f-ui-one'
+import { Message } from 'fei-ui-design'
 import { initData } from './initHook'
 import { deepMerge } from '@/utils/util'
 
