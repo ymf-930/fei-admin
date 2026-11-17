@@ -257,7 +257,7 @@ export default [
         name: 'DataV',
         title: 'DataV',
         icon: 'link',
-        externalLink: 'https://ymf930.gitee.io/fei-datav/',
+        externalLink: 'https://ymf-930.github.io/fei-datav/',
       },
       {
         name: 'DataVSchema',
