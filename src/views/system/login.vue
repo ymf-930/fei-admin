@@ -20,7 +20,7 @@
         <div class="main" flex="dir:top main:center cross:center">
           <!-- logo -->
           <div class="page-login--logo">
-            <img src="@/assets/images/logo/fei-admin-logo.svg" alt="logo" />
+            <img src="@/assets/images/logo/fei-logo.png" alt="logo" />
             <span>FEI-ADMIN</span>
           </div>
           <!-- 表单 -->

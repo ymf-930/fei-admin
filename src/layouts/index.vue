@@ -7,7 +7,7 @@
       :style="asideStyle"
     >
       <div class="logo" flex="cross:center">
-        <img class="icon" src="@/assets/images/logo/fei-admin-logo.svg" alt="logo-small" />
+        <img class="icon" src="@/assets/images/logo/fei-logo.png" alt="logo-small" />
         <transition name="zoom-in">
           <h1 v-show="setting.sidebar">FEI-ADMIN</h1>
         </transition>
