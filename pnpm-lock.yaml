@@ -17,9 +17,6 @@ importers:
       bin-charts-next:
         specifier: ^1.1.0
         version: 1.1.0(echarts@5.6.0)(vue@3.5.45)
-      bin-editor-next:
-        specifier: ^1.1.0
-        version: 1.1.0
       brace:
         specifier: ^0.11.1
         version: 0.11.1
@@ -32,6 +29,9 @@ importers:
       echarts:
         specifier: ^5.4.2
         version: 5.6.0
+      fei-editor:
+        specifier: file:../fei-editor
+        version: file:../fei-editor
       fei-ui-design:
         specifier: ^0.0.3
         version: 0.0.3(vue@3.5.45)
@@ -983,9 +983,6 @@ packages:
       echarts: ^5.2.1
       vue: ^3.2.20
 
-  bin-editor-next@1.1.0:
-    resolution: {integrity: sha512-5YX9319dS6k8XYA+sqTI959N1jAX8vqaZ5AW5tqXkgheuAQgOLber6yHOErfqpf3SRie3lhVvMHl12C/qGJw2g==}
-
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
 
@@ -1291,6 +1288,10 @@ packages:
 
   fastq@1.20.3:
     resolution: {integrity: sha512-XKv5nnLs6nLF71NgiKJLIZFLkPyIEuOselLG7ujZnGrRfQK8HpvY+WqKhAJUAdLomwVHErVS4LfxFlPq0/FTAw==}
+
+  fei-editor@file:../fei-editor:
+    resolution: {directory: ../fei-editor, type: directory}
+    engines: {node: '>=18.0.0'}
 
   fei-ui-design@0.0.3:
     resolution: {integrity: sha512-gYHBYYV7BUpdBuW++hLgBZ1Z5Zc1xTfaOW6t4rOl3hCBNLoBEdJdiw3v6m8UdvtDF8tYxKJFp8+d2VU15S+3BA==}
@@ -3308,10 +3309,6 @@ snapshots:
       resize-observer-polyfill: 1.5.1
       vue: 3.5.45
 
-  bin-editor-next@1.1.0:
-    dependencies:
-      brace: 0.11.1
-
   boolbase@1.0.0: {}
 
   brace-expansion@1.1.22:
@@ -3750,6 +3747,10 @@ snapshots:
   fastq@1.20.3:
     dependencies:
       reusify: 1.1.0
+
+  fei-editor@file:../fei-editor:
+    dependencies:
+      brace: 0.11.1
 
   fei-ui-design@0.0.3(vue@3.5.45):
     dependencies:
