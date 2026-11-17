@@ -21,15 +21,15 @@
           <span>1.0.0</span>
         </div>
       </a>
-      <a class="hover-item" href="https://ymf930.gitee.io/my-introduce-web/" target="_blank">
+      <a class="hover-item" href="https://ymf-930.github.io/datav-design/" target="_blank">
         <div class="title">
-          <iconfont icon="codelibrary" color="#4ab017" :size="36" bg round />
-          <span class="ml-15">My Introduce Web</span>
+          <iconfont icon="linechart" color="#4ab017" :size="36" bg round />
+          <span class="ml-15">DataV Design</span>
         </div>
-        <div class="desc">基于 vue3 的个人简绍网页</div>
+        <div class="desc">基于 datav-vue3 的分析大屏 BI 工程</div>
         <div class="desc" flex="main:justify">
-          <span>开源库</span>
-          <span>1.0.0</span>
+          <span>大屏</span>
+          <span>2.0.0</span>
         </div>
       </a>
 <!--      <a class="hover-item" href="" target="_blank">
