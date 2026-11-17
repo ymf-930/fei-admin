@@ -1,1 +1,0 @@
-import{i as e}from"./index-DlC5I_Sk.js";function r(){return e({url:"/depart/tree",method:"get"})}export{r as g};

@@ -1,6 +1,6 @@
 <template>
   <div class="dv-gui g-input" :class="{ inline }">
-    <b-input
+    <f-input
       v-model="inputValue"
       :size="size"
       :placeholder="placeholder"

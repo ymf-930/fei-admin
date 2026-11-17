@@ -1,6 +1,6 @@
 <template>
   <div class="dv-gui g-input-number" :class="{ inline, 'has-suffix': !!suffix }">
-    <b-input-number
+    <f-input-number
       v-model="inputValue"
       :size="size"
       :min="min"
@@ -77,10 +77,8 @@ export default {
   width: 100%;
   &.has-suffix {
     position: relative;
-    :deep(.bin-input-number) {
-      .bin-input-number-input {
-        padding-right: 42px;
-      }
+    :deep(.fei-input-number-input) {
+      padding-right: 42px;
     }
   }
 

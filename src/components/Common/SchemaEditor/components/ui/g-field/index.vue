@@ -78,24 +78,6 @@ export default {
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      :deep(.bin-button-group){
-        display: flex;
-        width: 100%;
-        align-items: center;
-        .bin-button {
-          text-align: center;
-          flex: 1;
-        }
-      }
-      :deep(.bin-radio-group){
-        display: flex;
-        width: 100%;
-        align-items: center;
-        .bin-radio {
-          text-align: center;
-          flex: 1;
-        }
-      }
     }
     :deep(.dv-gui) {
       width: 100%;
