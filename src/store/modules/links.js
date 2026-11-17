@@ -3,9 +3,9 @@ import { defineStore } from 'pinia'
 const useLinks = defineStore('links', {
   state: () => ({
     links: [
-      { link: 'https://ymf-930.gitee.io/fei-ui-design', text: 'fei-ui-design', newTab: true },
+      { link: 'https://ymf-930.github.io/fei-ui-design', text: 'fei-ui-design', newTab: true },
       { link: 'https://ymf930.gitee.io/my-introduce-web', text: 'my-introduce-web', newTab: true },
-      { link: 'https://ymf930.gitee.io/fei-editor', text: 'fei-editor', newTab: true },
+      { link: 'https://ymf-930.github.io/fei-editor', text: 'fei-editor', newTab: true },
       // { link: 'https://wangbin3162.gitee.io/bin-charts-next', text: 'bin-charts-next', newTab: true },
       // { link: 'https://wangbin3162.gitee.io/bin-tree-org', text: 'bin-tree-org', newTab: true },
       // { link: 'https://wangbin3162.gitee.io/bin-animation', text: 'bin-animation', newTab: true },

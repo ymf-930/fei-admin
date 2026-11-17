@@ -2,9 +2,9 @@
 
 vite + vue3.2+版本。
 
-[预览](https://ymf930.gitee.io/fei-admin/)
+[预览](https://ymf-930.github.io/fei-admin/)
 
-fei-admin基于 Vue3，配合使用最新支持vue3的组件库 [f-ui-one](https://gitee.com/ymf930/f-ui-one/) 
+fei-admin基于 Vue3，配合使用最新支持vue3的组件库 [fei-ui-design](https://github.com/ymf-930/fei-ui-design) 
 
 组件库提供了全新的主题系统和配置参数，增加了系统的个性化功能，并提供了多个自定义组件用于日常开发，配合组件库以及示例，可以快速的
 搭建自己的业务管理模块。
@@ -60,7 +60,7 @@ fei-admin基于 Vue3，配合使用最新支持vue3的组件库 [f-ui-one](https
 
 ```bash
 # 克隆项目
-git clone https://gitee.com/ymf930/fei-admin.git
+git clone https://github.com/ymf-930/fei-admin.git
 
 # 安装依赖
 npm install or yarn install

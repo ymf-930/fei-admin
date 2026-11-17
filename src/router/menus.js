@@ -245,7 +245,7 @@ export default [
         name: 'CompDoc',
         title: '组件文档',
         icon: 'link',
-        externalLink: 'https://ymf-930.gitee.io/fei-ui-design/',
+        externalLink: 'https://ymf-930.github.io/fei-ui-design/',
       },
       {
         name: 'Github',

@@ -10,7 +10,7 @@
       </div>
     </template>
     <div class="items-wrap">
-      <a class="hover-item" href="https://ymf-930.gitee.io/fei-ui-design/" target="_blank">
+      <a class="hover-item" href="https://ymf-930.github.io/fei-ui-design/" target="_blank">
         <div class="title">
           <iconfont icon="appstore" color="#25bbe3" :size="36" bg round />
           <span class="ml-15">FEI UI DESIGN</span>
@@ -76,7 +76,7 @@
           <span>1.1.1</span>
         </div>
       </a>-->
-      <a class="hover-item" href="https://ymf930.gitee.io/fei-admin" target="_blank">
+      <a class="hover-item" href="https://ymf-930.github.io/fei-admin" target="_blank">
         <div class="title">
           <iconfont icon="sketch" color="#8e58da" :size="36" bg round />
           <span class="ml-15">Fei Admin</span>

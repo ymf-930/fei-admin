@@ -19,7 +19,7 @@
             <f-divider type="vertical"></f-divider>
             <a href="https://gitee.com/ymf930/fei-admin" target="_blank">Gitee</a>
             <f-divider type="vertical"></f-divider>
-            <a href="https://ymf930.gitee.io/fei-admin" target="_blank">Preview</a>
+            <a href="https://ymf-930.github.io/fei-admin" target="_blank">Preview</a>
           </f-desc-item>
           <f-desc-item label="fei-ui-design 地址">
             <a href="https://github.com/ymf-930/fei-ui-design" target="_blank">Github</a>
@@ -27,7 +27,7 @@
             <a href="https://gitee.com/ymf930/fei-ui-design" target="_blank">Gitee</a>
           </f-desc-item>
           <f-desc-item label="fei-ui-design 文档">
-            <a href="https://ymf-930.gitee.io/fei-ui-design" target="_blank">文档</a>
+            <a href="https://ymf-930.github.io/fei-ui-design" target="_blank">文档</a>
           </f-desc-item>
         </f-desc>
       </div>

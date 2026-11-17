@@ -9,7 +9,7 @@ export default {
     {
       id: '001',
       title: 'FEI UI DESIGN',
-      url: 'https://ymf-930.gitee.io/fei-ui-design/#/guide',
+      url: 'https://ymf-930.github.io/fei-ui-design/guide/',
       desc: '基于vue3的ui组件库，内涵60+组件',
       banner: banner1,
       author: 'yangmengfei',
@@ -19,7 +19,7 @@ export default {
     {
       id: '002',
       title: 'Fei Admin',
-      url: 'https://ymf930.gitee.io/fei-admin/',
+      url: 'https://ymf-930.github.io/fei-admin/',
       desc: '基于vue3,fei-ui-design的企业级后台管理框架',
       banner: banner2,
       author: 'yangmengfei',
@@ -29,7 +29,7 @@ export default {
     {
       id: '003',
       title: 'Fei Editor',
-      url: 'https://ymf930.gitee.io/fei-editor/#/guide',
+      url: 'https://ymf-930.github.io/fei-editor/guide.html',
       desc: '基于vue3的代码编辑器，支持多种格式',
       banner: banner3,
       author: 'yangmengfei',
